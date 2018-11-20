@@ -1,0 +1,79 @@
+{
+  "cocos-analytics": {
+    "appID": "626838879",
+    "appSecret": "72285a918eaf571764e467c35d63c846",
+    "channel": "",
+    "enable": true,
+    "version": ""
+  },
+  "collision-matrix": [
+    [
+      false,
+      true
+    ],
+    [
+      true,
+      false
+    ],
+    [
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false
+    ]
+  ],
+  "design-resolution-height": 960,
+  "design-resolution-width": 640,
+  "excluded-modules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "ScrollBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "Audio",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Action",
+    "Physics",
+    "NodePool",
+    "StudioComponent",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fit-height": true,
+  "fit-width": false,
+  "group-list": [
+    "default",
+    "brick",
+    "upBall",
+    "ball"
+  ],
+  "simulator-orientation": false,
+  "simulator-resolution": {
+    "height": 640,
+    "width": 960
+  },
+  "start-scene": "8f2e8238-0e4e-4629-9438-779e89738b43",
+  "use-customize-simulator": false,
+  "use-project-simulator-setting": false
+}
