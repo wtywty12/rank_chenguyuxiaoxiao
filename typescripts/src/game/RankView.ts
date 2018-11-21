@@ -43,6 +43,8 @@ export class RankView extends cc.Component {
     private fetchFriendData(MAIN_MENU_NUM: any) {//获取好友排行榜数据
         // this.rankingScrollView.node.active = true;
         // if(CC_WECHATGAME){
+        console.log("fetchFriendData ： ", MAIN_MENU_NUM); 
+        cc.log("fetchFriendData ： ", MAIN_MENU_NUM); 
         wx.getUserInfo({
             openIdList: ['selfOpenId'],
             success: (userRes: any) => {
