@@ -99,14 +99,12 @@
         "assets",
         "scene"
       ]
-    },
-    "window-1542724437716": {},
-    "worker": {}
+    }
   },
   "panels": {
     "builder": {
-      "x": 0,
-      "y": 246,
+      "x": 513,
+      "y": 142,
       "width": 654,
       "height": 722
     },
