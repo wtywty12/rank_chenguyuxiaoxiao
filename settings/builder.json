@@ -17,7 +17,7 @@
   "inlineSpriteFrames": true,
   "inlineSpriteFrames_native": true,
   "jailbreakPlatform": false,
-  "md5Cache": true,
+  "md5Cache": false,
   "mergeStartScene": false,
   "oauthLoginServer": "",
   "optimizeHotUpdate": false,
@@ -33,16 +33,15 @@
     "REMOTE_SERVER_ROOT": "",
     "orientation": "portrait"
   },
-  "startScene": "06da3d42-c1eb-407b-b8db-7d878bdbbb38",
-  "title": "wechatgame-subcontext",
+  "startScene": "4492ddf8-0156-437d-a848-cf5fa0c5b7fb",
+  "title": "rank",
   "webOrientation": "auto",
   "wechatgame": {
-    "REMOTE_SERVER_ROOT": "https://liubowen.top/dzk-res",
-    "appid": "wxf07ad74fd388c978",
-    "isSubdomain": false,
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
     "orientation": "portrait",
     "subContext": ""
   },
-  "xxteaKey": "7f1efa5c-75f7-4d",
+  "xxteaKey": "084af0c4-65c7-43",
   "zipCompressJs": true
 }
