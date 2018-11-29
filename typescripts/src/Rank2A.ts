@@ -1,10 +1,19 @@
 import ccclass = cc._decorator.ccclass;
 import property = cc._decorator.property;
 import {RankList} from "./RankList";
-import {ScrollView} from "./ScrollView";
+import {Rank2B} from "./Rank2B";
+import {ScrollView2A} from "./ScrollView2A";
 
 @ccclass
-export class RankLayer extends cc.Component {
+export class Rank2A extends cc.Component {
+
+    /** rank2A */
+    @property(cc.Node)
+    private rank2A: cc.Node = null;
+
+    /** item2B */
+    @property(cc.Node)
+    private rank2B: cc.Node = null;
 
     /** prefab */
     @property(cc.Node)
@@ -14,7 +23,8 @@ export class RankLayer extends cc.Component {
     @property(cc.ScrollView)
     private scrollView: cc.ScrollView = null;
 
-    private sv: ScrollView = null;
+    private sv: ScrollView2A = null;
+    private r2b: Rank2B = null;
 
     protected constructor() {
         super();
@@ -36,10 +46,16 @@ export class RankLayer extends cc.Component {
                     this.updateFrientRankList();
                     break;
                 case "2":
-                    this.submitTopScore(eventData.score, eventData.level);
+                    this.submitTopScore(eventData.score, eventData.chenghao);
                     break;
                 case "3":
                     this.sv.clearAllData();
+                    break;
+                case "4":
+                    this.initItem2B();
+                    break;
+                case "5":
+                    this.updateItem2B();
                     break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
@@ -49,9 +65,31 @@ export class RankLayer extends cc.Component {
     }
 
     /**
-     * 创建好友排行榜列表
+     * 显示三行 2B排行榜
      */
-    private createFriendRankList() {
+    private initItem2B() {
+        this.rank2A.active = false;
+        this.rank2B.active = true;
+        var rank2b: Rank2B = this.rank2B.getComponent("Rank2B");
+        this.getBorderFriend(function(datas: any){
+            rank2b.initView(datas);
+        })
+    }
+
+    /**
+     * 更新2B
+     */
+    private updateItem2B() {
+        var rank2b: Rank2B = this.rank2B.getComponent("Rank2B");
+        this.getBorderFriend(function(datas: any){
+            rank2b.updateView(datas);
+        })
+    }
+
+    /**
+     * 计算自己和相邻的排行
+     */
+    private getBorderFriend(cb: Function) {
         wx.getFriendCloudStorage({
             keyList: ["topScore"],
             success: (event: any) => {
@@ -60,10 +98,29 @@ export class RankLayer extends cc.Component {
                 this.sortRankInfo(newData);
                 console.log("好友排行榜数据 => ", newData);
                 /** 异步 所以回调处理UI */
-                this.sv = this.scrollView.getComponent("ScrollView");
+                cb(newData);
+            }
+        })
+    }
+
+    /**
+     * 创建好友排行榜列表
+     */
+    private createFriendRankList() {
+        this.rank2A.active = true;
+        this.rank2B.active = false;
+        wx.getFriendCloudStorage({
+            keyList: ["topScore_2A"],
+            success: (event: any) => {
+                let data: Array<any> = event.data;
+                let newData = this.parseRankData(data);
+                this.sortRankInfo(newData);
+                console.log("好友排行榜数据 => ", newData);
+                /** 异步 所以回调处理UI */
+                this.sv = this.scrollView.getComponent("ScrollView2A");
                 var a = newData.concat(newData);
                 var b = a.concat(a);
-                this.sv.init(b);
+                this.sv.init(newData);
                 // RankList.setFriendRankData(newData, this.layout, this.rankNode);
             }
         })
@@ -94,10 +151,10 @@ export class RankLayer extends cc.Component {
                 let wxgame = jsonObj.wxgame;
                 if (wxgame != null) {
                     let score = wxgame.score;
-                    let level = wxgame.level;
+                    let chenghao = wxgame.chenghao;
                     let update_time = wxgame.update_time;
                     map.set("score", score);
-                    map.set("level", level);
+                    map.set("chenghao", chenghao);
                     map.set("update_time", update_time);
                 }
             }
@@ -130,7 +187,7 @@ export class RankLayer extends cc.Component {
      */
     private updateFrientRankList() {
         wx.getFriendCloudStorage({
-            keyList: ["topScore"],
+            keyList: ["topScore_2A"],
             success: (event: any) => {
                 let data = event.data;
                 console.log("好友排行榜数据 => ", data);
@@ -142,21 +199,21 @@ export class RankLayer extends cc.Component {
     /**
      * 提交玩家最高分到排行榜
      */
-    private submitTopScore(score: number, level: number) {
-        if (typeof(score) != "number" && typeof(level) != "number") {
-            console.log("score or level is not number!");
+    private submitTopScore(score: number,chenghao : string) {
+        if (typeof(score) != "number" && typeof(chenghao) != "string") {
+            console.log("score or chenghao is not number!");
             return;
         }
         console.log("排行榜设置用户最高分 = " + score);
         var jsonObj = {
             "wxgame": {
-                  "level": level,
+                  "chenghao": chenghao,
                   "score": score,
                   "update_time": new Date().getTime(),
             },
         };
         var jsonStr = JSON.stringify(jsonObj);
         console.log("jsonStr = " + jsonStr);
-        wx.setUserCloudStorage({KVDataList: [{key: "topScore", value: jsonStr}]});
+        wx.setUserCloudStorage({KVDataList: [{key: "topScore_2A", value: jsonStr}]});
     }
 }

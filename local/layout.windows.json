@@ -37,46 +37,22 @@
             "width": 229
           },
           {
+            "active": 0,
             "children": [
-              {
-                "children": [
-                  {
-                    "active": 0,
-                    "children": [
-                      "scene"
-                    ],
-                    "height": 378,
-                    "type": "panel",
-                    "width": 555.984375
-                  },
-                  {
-                    "active": 0,
-                    "children": [
-                      "node-library"
-                    ],
-                    "height": 378,
-                    "type": "panel",
-                    "width": 297.984375
-                  }
-                ],
-                "height": 378,
-                "type": "dock-h",
-                "width": 856.984375
-              },
-              {
-                "active": 0,
-                "children": [
-                  "console",
-                  "timeline"
-                ],
-                "height": 349,
-                "type": "panel",
-                "width": 856.984375
-              }
+              "scene"
             ],
             "height": 730,
-            "type": "dock-v",
-            "width": 856.984375
+            "type": "panel",
+            "width": 556
+          },
+          {
+            "active": 0,
+            "children": [
+              "node-library"
+            ],
+            "height": 730,
+            "type": "panel",
+            "width": 298
           },
           {
             "active": 0,
@@ -93,14 +69,12 @@
       "panels": [
         "hierarchy",
         "node-library",
-        "console",
-        "timeline",
         "inspector",
         "assets",
         "scene"
       ]
     },
-    "window-1542972494361": {},
+    "window-1543468232698": {},
     "worker": {}
   },
   "panels": {
@@ -115,6 +89,18 @@
       "y": 80,
       "width": 654,
       "height": 556
+    },
+    "preferences": {
+      "x": 680,
+      "y": 267,
+      "width": 584,
+      "height": 548
+    },
+    "console": {
+      "x": 760,
+      "y": 367,
+      "width": 400,
+      "height": 322
     }
   }
 }

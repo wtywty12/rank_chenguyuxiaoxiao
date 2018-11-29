@@ -21,16 +21,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var ccclass = cc._decorator.ccclass;
 var property = cc._decorator.property;
-var RankLayer = (function (_super) {
-    __extends(RankLayer, _super);
-    function RankLayer() {
+var Rank2A = (function (_super) {
+    __extends(Rank2A, _super);
+    function Rank2A() {
         var _this = _super.call(this) || this;
+        _this.rank2A = null;
+        _this.rank2B = null;
         _this.myRankNode = null;
         _this.scrollView = null;
         _this.sv = null;
+        _this.r2b = null;
         return _this;
     }
-    RankLayer.prototype.start = function () {
+    Rank2A.prototype.start = function () {
         var _this = this;
         wx.onMessage(function (event) {
             console.log("收到主域Message => ", event);
@@ -44,10 +47,16 @@ var RankLayer = (function (_super) {
                     _this.updateFrientRankList();
                     break;
                 case "2":
-                    _this.submitTopScore(eventData.score, eventData.level);
+                    _this.submitTopScore(eventData.score, eventData.chenghao);
                     break;
                 case "3":
                     _this.sv.clearAllData();
+                    break;
+                case "4":
+                    _this.initItem2B();
+                    break;
+                case "5":
+                    _this.updateItem2B();
                     break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
@@ -55,7 +64,21 @@ var RankLayer = (function (_super) {
             }
         });
     };
-    RankLayer.prototype.createFriendRankList = function () {
+    Rank2A.prototype.initItem2B = function () {
+        this.rank2A.active = false;
+        this.rank2B.active = true;
+        var rank2b = this.rank2B.getComponent("Rank2B");
+        this.getBorderFriend(function (datas) {
+            rank2b.initView(datas);
+        });
+    };
+    Rank2A.prototype.updateItem2B = function () {
+        var rank2b = this.rank2B.getComponent("Rank2B");
+        this.getBorderFriend(function (datas) {
+            rank2b.updateView(datas);
+        });
+    };
+    Rank2A.prototype.getBorderFriend = function (cb) {
         var _this = this;
         wx.getFriendCloudStorage({
             keyList: ["topScore"],
@@ -64,14 +87,29 @@ var RankLayer = (function (_super) {
                 var newData = _this.parseRankData(data);
                 _this.sortRankInfo(newData);
                 console.log("好友排行榜数据 => ", newData);
-                _this.sv = _this.scrollView.getComponent("ScrollView");
-                var a = newData.concat(newData);
-                var b = a.concat(a);
-                _this.sv.init(b);
+                cb(newData);
             }
         });
     };
-    RankLayer.prototype.parseRankData = function (data) {
+    Rank2A.prototype.createFriendRankList = function () {
+        var _this = this;
+        this.rank2A.active = true;
+        this.rank2B.active = false;
+        wx.getFriendCloudStorage({
+            keyList: ["topScore_2A"],
+            success: function (event) {
+                var data = event.data;
+                var newData = _this.parseRankData(data);
+                _this.sortRankInfo(newData);
+                console.log("好友排行榜数据 => ", newData);
+                _this.sv = _this.scrollView.getComponent("ScrollView2A");
+                var a = newData.concat(newData);
+                var b = a.concat(a);
+                _this.sv.init(newData);
+            }
+        });
+    };
+    Rank2A.prototype.parseRankData = function (data) {
         var newData = [];
         data.forEach(function (value, key) {
             var kvData = value.KVDataList[0] || [];
@@ -89,17 +127,17 @@ var RankLayer = (function (_super) {
                 var wxgame = jsonObj.wxgame;
                 if (wxgame != null) {
                     var score = wxgame.score;
-                    var level = wxgame.level;
+                    var chenghao = wxgame.chenghao;
                     var update_time = wxgame.update_time;
                     map.set("score", score);
-                    map.set("level", level);
+                    map.set("chenghao", chenghao);
                     map.set("update_time", update_time);
                 }
             }
         });
         return newData;
     };
-    RankLayer.prototype.sortRankInfo = function (data) {
+    Rank2A.prototype.sortRankInfo = function (data) {
         data.sort(function (a, b) {
             var sa = a.get("score");
             var sb = b.get("score");
@@ -115,41 +153,47 @@ var RankLayer = (function (_super) {
             return sb - sa;
         });
     };
-    RankLayer.prototype.updateFrientRankList = function () {
+    Rank2A.prototype.updateFrientRankList = function () {
         wx.getFriendCloudStorage({
-            keyList: ["topScore"],
+            keyList: ["topScore_2A"],
             success: function (event) {
                 var data = event.data;
                 console.log("好友排行榜数据 => ", data);
             }
         });
     };
-    RankLayer.prototype.submitTopScore = function (score, level) {
-        if (typeof (score) != "number" && typeof (level) != "number") {
-            console.log("score or level is not number!");
+    Rank2A.prototype.submitTopScore = function (score, chenghao) {
+        if (typeof (score) != "number" && typeof (chenghao) != "string") {
+            console.log("score or chenghao is not number!");
             return;
         }
         console.log("排行榜设置用户最高分 = " + score);
         var jsonObj = {
             "wxgame": {
-                "level": level,
+                "chenghao": chenghao,
                 "score": score,
                 "update_time": new Date().getTime(),
             },
         };
         var jsonStr = JSON.stringify(jsonObj);
         console.log("jsonStr = " + jsonStr);
-        wx.setUserCloudStorage({ KVDataList: [{ key: "topScore", value: jsonStr }] });
+        wx.setUserCloudStorage({ KVDataList: [{ key: "topScore_2A", value: jsonStr }] });
     };
     __decorate([
         property(cc.Node)
-    ], RankLayer.prototype, "myRankNode", void 0);
+    ], Rank2A.prototype, "rank2A", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Rank2A.prototype, "rank2B", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Rank2A.prototype, "myRankNode", void 0);
     __decorate([
         property(cc.ScrollView)
-    ], RankLayer.prototype, "scrollView", void 0);
-    RankLayer = __decorate([
+    ], Rank2A.prototype, "scrollView", void 0);
+    Rank2A = __decorate([
         ccclass
-    ], RankLayer);
-    return RankLayer;
+    ], Rank2A);
+    return Rank2A;
 }(cc.Component));
-exports.RankLayer = RankLayer;
+exports.Rank2A = Rank2A;

@@ -21,9 +21,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var ccclass = cc._decorator.ccclass;
 var property = cc._decorator.property;
-var ScrollView = (function (_super) {
-    __extends(ScrollView, _super);
-    function ScrollView() {
+var ScrollView2A = (function (_super) {
+    __extends(ScrollView2A, _super);
+    function ScrollView2A() {
         var _this = _super.call(this) || this;
         _this.view = null;
         _this.list = null;
@@ -39,10 +39,10 @@ var ScrollView = (function (_super) {
         _this.itemMap = new Map();
         return _this;
     }
-    ScrollView.prototype.onLoad = function () {
+    ScrollView2A.prototype.onLoad = function () {
         this.resetData();
     };
-    ScrollView.prototype.resetData = function () {
+    ScrollView2A.prototype.resetData = function () {
         this.data = [];
         this.rowItemCounts = 0;
         this.items = [];
@@ -52,7 +52,7 @@ var ScrollView = (function (_super) {
         this.itemHeight = 0;
         this.spacingY = 10;
     };
-    ScrollView.prototype.init = function (data) {
+    ScrollView2A.prototype.init = function (data) {
         this.data = data;
         var height = 0;
         var item = cc.instantiate(this.itemPrefab);
@@ -62,7 +62,7 @@ var ScrollView = (function (_super) {
         for (var i = 0; i < 15; ++i) {
             if (data[i] == undefined)
                 break;
-            var rankItem = item.getComponent('RankItem');
+            var rankItem = item.getComponent('Item2A');
             rankItem.updateItem(data[i], i);
             this.itemMap.set(item, i);
             this.items.push(item);
@@ -78,23 +78,23 @@ var ScrollView = (function (_super) {
         this.bottomMax = -(this.view.height + this.topMax);
         this.lastListY = this.list.y;
     };
-    ScrollView.prototype.clearAllData = function () {
+    ScrollView2A.prototype.clearAllData = function () {
         this.itemMap.clear();
         this.list.removeAllChildren();
         this.resetData();
     };
     __decorate([
         property(cc.Node)
-    ], ScrollView.prototype, "view", void 0);
+    ], ScrollView2A.prototype, "view", void 0);
     __decorate([
         property(cc.Node)
-    ], ScrollView.prototype, "list", void 0);
+    ], ScrollView2A.prototype, "list", void 0);
     __decorate([
         property(cc.Prefab)
-    ], ScrollView.prototype, "itemPrefab", void 0);
-    ScrollView = __decorate([
+    ], ScrollView2A.prototype, "itemPrefab", void 0);
+    ScrollView2A = __decorate([
         ccclass
-    ], ScrollView);
-    return ScrollView;
+    ], ScrollView2A);
+    return ScrollView2A;
 }(cc.Component));
-exports.ScrollView = ScrollView;
+exports.ScrollView2A = ScrollView2A;

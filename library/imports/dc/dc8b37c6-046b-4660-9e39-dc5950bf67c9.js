@@ -1,6 +1,6 @@
-(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/src/ScrollView.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
-cc._RF.push(module, '15f62yx3x5A6az40KiR7eXm', 'ScrollView', __filename);
-// script/src/ScrollView.js
+"use strict";
+cc._RF.push(module, 'dc8b3fGBGtGYJ453FlQv2fJ', 'ScrollView2A');
+// script/src/ScrollView2A.js
 
 "use strict";
 
@@ -36,9 +36,9 @@ var __decorate = undefined && undefined.__decorate || function (decorators, targ
 Object.defineProperty(exports, "__esModule", { value: true });
 var ccclass = cc._decorator.ccclass;
 var property = cc._decorator.property;
-var ScrollView = function (_super) {
-    __extends(ScrollView, _super);
-    function ScrollView() {
+var ScrollView2A = function (_super) {
+    __extends(ScrollView2A, _super);
+    function ScrollView2A() {
         var _this = _super.call(this) || this;
         _this.view = null;
         _this.list = null;
@@ -54,10 +54,10 @@ var ScrollView = function (_super) {
         _this.itemMap = new Map();
         return _this;
     }
-    ScrollView.prototype.onLoad = function () {
+    ScrollView2A.prototype.onLoad = function () {
         this.resetData();
     };
-    ScrollView.prototype.resetData = function () {
+    ScrollView2A.prototype.resetData = function () {
         this.data = [];
         this.rowItemCounts = 0;
         this.items = [];
@@ -67,7 +67,7 @@ var ScrollView = function (_super) {
         this.itemHeight = 0;
         this.spacingY = 10;
     };
-    ScrollView.prototype.init = function (data) {
+    ScrollView2A.prototype.init = function (data) {
         this.data = data;
         var height = 0;
         var item = cc.instantiate(this.itemPrefab);
@@ -76,7 +76,7 @@ var ScrollView = function (_super) {
         this.rowItemCounts = Math.ceil(this.view.height / (height + this.spacingY));
         for (var i = 0; i < 15; ++i) {
             if (data[i] == undefined) break;
-            var rankItem = item.getComponent('RankItem');
+            var rankItem = item.getComponent('Item2A');
             rankItem.updateItem(data[i], i);
             this.itemMap.set(item, i);
             this.items.push(item);
@@ -92,29 +92,17 @@ var ScrollView = function (_super) {
         this.bottomMax = -(this.view.height + this.topMax);
         this.lastListY = this.list.y;
     };
-    ScrollView.prototype.clearAllData = function () {
+    ScrollView2A.prototype.clearAllData = function () {
         this.itemMap.clear();
         this.list.removeAllChildren();
         this.resetData();
     };
-    __decorate([property(cc.Node)], ScrollView.prototype, "view", void 0);
-    __decorate([property(cc.Node)], ScrollView.prototype, "list", void 0);
-    __decorate([property(cc.Prefab)], ScrollView.prototype, "itemPrefab", void 0);
-    ScrollView = __decorate([ccclass], ScrollView);
-    return ScrollView;
+    __decorate([property(cc.Node)], ScrollView2A.prototype, "view", void 0);
+    __decorate([property(cc.Node)], ScrollView2A.prototype, "list", void 0);
+    __decorate([property(cc.Prefab)], ScrollView2A.prototype, "itemPrefab", void 0);
+    ScrollView2A = __decorate([ccclass], ScrollView2A);
+    return ScrollView2A;
 }(cc.Component);
-exports.ScrollView = ScrollView;
+exports.ScrollView2A = ScrollView2A;
 
 cc._RF.pop();
-        }
-        if (CC_EDITOR) {
-            __define(__module.exports, __require, __module);
-        }
-        else {
-            cc.registerModuleFunc(__filename, function () {
-                __define(__module.exports, __require, __module);
-            });
-        }
-        })();
-        //# sourceMappingURL=ScrollView.js.map
-        

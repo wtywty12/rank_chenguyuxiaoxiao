@@ -40,9 +40,7 @@ var RankLayer = function (_super) {
     __extends(RankLayer, _super);
     function RankLayer() {
         var _this = _super.call(this) || this;
-        _this.rankNode = null;
         _this.myRankNode = null;
-        _this.layout = null;
         _this.scrollView = null;
         _this.sv = null;
         return _this;
@@ -82,7 +80,9 @@ var RankLayer = function (_super) {
                 _this.sortRankInfo(newData);
                 console.log("好友排行榜数据 => ", newData);
                 _this.sv = _this.scrollView.getComponent("ScrollView");
-                _this.sv.init(newData);
+                var a = newData.concat(newData);
+                var b = a.concat(a);
+                _this.sv.init(b);
             }
         });
     };
@@ -156,9 +156,7 @@ var RankLayer = function (_super) {
         console.log("jsonStr = " + jsonStr);
         wx.setUserCloudStorage({ KVDataList: [{ key: "topScore", value: jsonStr }] });
     };
-    __decorate([property(cc.Node)], RankLayer.prototype, "rankNode", void 0);
     __decorate([property(cc.Node)], RankLayer.prototype, "myRankNode", void 0);
-    __decorate([property(cc.Layout)], RankLayer.prototype, "layout", void 0);
     __decorate([property(cc.ScrollView)], RankLayer.prototype, "scrollView", void 0);
     RankLayer = __decorate([ccclass], RankLayer);
     return RankLayer;
