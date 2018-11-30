@@ -21,9 +21,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var ccclass = cc._decorator.ccclass;
 var property = cc._decorator.property;
-var ScrollView2A = (function (_super) {
-    __extends(ScrollView2A, _super);
-    function ScrollView2A() {
+var ScrollView = (function (_super) {
+    __extends(ScrollView, _super);
+    function ScrollView() {
         var _this = _super.call(this) || this;
         _this.view = null;
         _this.list = null;
@@ -39,10 +39,10 @@ var ScrollView2A = (function (_super) {
         _this.itemMap = new Map();
         return _this;
     }
-    ScrollView2A.prototype.onLoad = function () {
+    ScrollView.prototype.onLoad = function () {
         this.resetData();
     };
-    ScrollView2A.prototype.resetData = function () {
+    ScrollView.prototype.resetData = function () {
         this.data = [];
         this.rowItemCounts = 0;
         this.items = [];
@@ -50,9 +50,9 @@ var ScrollView2A = (function (_super) {
         this.bottomMax = 0;
         this.lastListY = 0;
         this.itemHeight = 0;
-        this.spacingY = 0;
+        this.spacingY = 10;
     };
-    ScrollView2A.prototype.init = function (data) {
+    ScrollView.prototype.init = function (data) {
         this.data = data;
         var height = 0;
         var item = cc.instantiate(this.itemPrefab);
@@ -62,13 +62,13 @@ var ScrollView2A = (function (_super) {
         for (var i = 0; i < 15; ++i) {
             if (data[i] == undefined)
                 break;
-            var rankItem = item.getComponent('Item2A');
+            var rankItem = item.getComponent('RankItem');
             rankItem.updateItem(data[i], i);
             this.itemMap.set(item, i);
             this.items.push(item);
             this.list.addChild(item);
             item.x = 0;
-            item.y = -(i * (height + this.spacingY));
+            item.y = -(height / 2 + i * (height + this.spacingY));
             if (i < 14) {
                 item = cc.instantiate(this.itemPrefab);
             }
@@ -78,23 +78,23 @@ var ScrollView2A = (function (_super) {
         this.bottomMax = -(this.view.height + this.topMax);
         this.lastListY = this.list.y;
     };
-    ScrollView2A.prototype.clearAllData = function () {
+    ScrollView.prototype.clearAllData = function () {
         this.itemMap.clear();
         this.list.removeAllChildren();
         this.resetData();
     };
     __decorate([
         property(cc.Node)
-    ], ScrollView2A.prototype, "view", void 0);
+    ], ScrollView.prototype, "view", void 0);
     __decorate([
         property(cc.Node)
-    ], ScrollView2A.prototype, "list", void 0);
+    ], ScrollView.prototype, "list", void 0);
     __decorate([
         property(cc.Prefab)
-    ], ScrollView2A.prototype, "itemPrefab", void 0);
-    ScrollView2A = __decorate([
+    ], ScrollView.prototype, "itemPrefab", void 0);
+    ScrollView = __decorate([
         ccclass
-    ], ScrollView2A);
-    return ScrollView2A;
+    ], ScrollView);
+    return ScrollView;
 }(cc.Component));
-exports.ScrollView2A = ScrollView2A;
+exports.ScrollView = ScrollView;

@@ -27,7 +27,6 @@ var Rank2A = (function (_super) {
         var _this = _super.call(this) || this;
         _this.rank2A = null;
         _this.rank2B = null;
-        _this.myRankNode = null;
         _this.scrollView = null;
         _this.sv = null;
         _this.r2b = null;
@@ -47,7 +46,7 @@ var Rank2A = (function (_super) {
                     _this.updateFrientRankList();
                     break;
                 case "2":
-                    _this.submitTopScore(eventData.score, eventData.chenghao);
+                    _this.submitTopScore(eventData.score, eventData.chenghao, eventData.playerId);
                     break;
                 case "3":
                     _this.sv.clearAllData();
@@ -103,8 +102,6 @@ var Rank2A = (function (_super) {
                 _this.sortRankInfo(newData);
                 console.log("好友排行榜数据 => ", newData);
                 _this.sv = _this.scrollView.getComponent("ScrollView2A");
-                var a = newData.concat(newData);
-                var b = a.concat(a);
                 _this.sv.init(newData);
             }
         });
@@ -128,9 +125,11 @@ var Rank2A = (function (_super) {
                 if (wxgame != null) {
                     var score = wxgame.score;
                     var chenghao = wxgame.chenghao;
+                    var playerId = wxgame.playerId;
                     var update_time = wxgame.update_time;
                     map.set("score", score);
                     map.set("chenghao", chenghao);
+                    map.set("playerId", playerId);
                     map.set("update_time", update_time);
                 }
             }
@@ -162,7 +161,7 @@ var Rank2A = (function (_super) {
             }
         });
     };
-    Rank2A.prototype.submitTopScore = function (score, chenghao) {
+    Rank2A.prototype.submitTopScore = function (score, chenghao, playerId) {
         if (typeof (score) != "number" && typeof (chenghao) != "string") {
             console.log("score or chenghao is not number!");
             return;
@@ -172,6 +171,7 @@ var Rank2A = (function (_super) {
             "wxgame": {
                 "chenghao": chenghao,
                 "score": score,
+                "playerId": playerId,
                 "update_time": new Date().getTime(),
             },
         };
@@ -185,9 +185,6 @@ var Rank2A = (function (_super) {
     __decorate([
         property(cc.Node)
     ], Rank2A.prototype, "rank2B", void 0);
-    __decorate([
-        property(cc.Node)
-    ], Rank2A.prototype, "myRankNode", void 0);
     __decorate([
         property(cc.ScrollView)
     ], Rank2A.prototype, "scrollView", void 0);

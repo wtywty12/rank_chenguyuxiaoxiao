@@ -49,7 +49,7 @@ export class ScrollView2A extends cc.Component {
         //itemprefab的高度
         this.itemHeight = 0
         //空间距
-        this.spacingY = 10
+        this.spacingY = 0
     }
 
     public init(data: any) {
@@ -77,7 +77,7 @@ export class ScrollView2A extends cc.Component {
             //设置x坐标
             item.x = 0
             //设置y坐标
-            item.y = - (height / 2 +  i * (height + this.spacingY ))
+            item.y = - (i * (height + this.spacingY ))
             //继续创建
             if(i < 14){
                 item = cc.instantiate(this.itemPrefab)

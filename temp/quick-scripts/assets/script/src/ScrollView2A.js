@@ -65,7 +65,7 @@ var ScrollView2A = function (_super) {
         this.bottomMax = 0;
         this.lastListY = 0;
         this.itemHeight = 0;
-        this.spacingY = 10;
+        this.spacingY = 0;
     };
     ScrollView2A.prototype.init = function (data) {
         this.data = data;
@@ -82,7 +82,7 @@ var ScrollView2A = function (_super) {
             this.items.push(item);
             this.list.addChild(item);
             item.x = 0;
-            item.y = -(height / 2 + i * (height + this.spacingY));
+            item.y = -(i * (height + this.spacingY));
             if (i < 14) {
                 item = cc.instantiate(this.itemPrefab);
             }

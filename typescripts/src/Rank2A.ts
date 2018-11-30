@@ -15,10 +15,6 @@ export class Rank2A extends cc.Component {
     @property(cc.Node)
     private rank2B: cc.Node = null;
 
-    /** prefab */
-    @property(cc.Node)
-    private myRankNode: cc.Node = null;
-
     /** scrollview */
     @property(cc.ScrollView)
     private scrollView: cc.ScrollView = null;
@@ -46,7 +42,7 @@ export class Rank2A extends cc.Component {
                     this.updateFrientRankList();
                     break;
                 case "2":
-                    this.submitTopScore(eventData.score, eventData.chenghao);
+                    this.submitTopScore(eventData.score, eventData.chenghao, eventData.playerId);
                     break;
                 case "3":
                     this.sv.clearAllData();
@@ -118,8 +114,6 @@ export class Rank2A extends cc.Component {
                 console.log("好友排行榜数据 => ", newData);
                 /** 异步 所以回调处理UI */
                 this.sv = this.scrollView.getComponent("ScrollView2A");
-                var a = newData.concat(newData);
-                var b = a.concat(a);
                 this.sv.init(newData);
                 // RankList.setFriendRankData(newData, this.layout, this.rankNode);
             }
@@ -152,9 +146,11 @@ export class Rank2A extends cc.Component {
                 if (wxgame != null) {
                     let score = wxgame.score;
                     let chenghao = wxgame.chenghao;
+                    let playerId = wxgame.playerId;
                     let update_time = wxgame.update_time;
                     map.set("score", score);
                     map.set("chenghao", chenghao);
+                    map.set("playerId", playerId);
                     map.set("update_time", update_time);
                 }
             }
@@ -199,7 +195,7 @@ export class Rank2A extends cc.Component {
     /**
      * 提交玩家最高分到排行榜
      */
-    private submitTopScore(score: number,chenghao : string) {
+    private submitTopScore(score: number, chenghao : string, playerId: string) {
         if (typeof(score) != "number" && typeof(chenghao) != "string") {
             console.log("score or chenghao is not number!");
             return;
@@ -209,6 +205,7 @@ export class Rank2A extends cc.Component {
             "wxgame": {
                   "chenghao": chenghao,
                   "score": score,
+                  "playerId": playerId,
                   "update_time": new Date().getTime(),
             },
         };
