@@ -53,10 +53,10 @@ var Rank2A = (function (_super) {
                     _this.sv.clearAllData();
                     break;
                 case "4":
-                    _this.initItem2B();
+                    _this.initItem2B(eventData);
                     break;
                 case "5":
-                    _this.updateItem2B();
+                    _this.updateItem2B(eventData);
                     break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
@@ -64,24 +64,26 @@ var Rank2A = (function (_super) {
             }
         });
     };
-    Rank2A.prototype.initItem2B = function () {
+    Rank2A.prototype.initItem2B = function (playerId) {
         this.rank2A.active = false;
+        this.my_paiming.node.active = false;
         this.rank2B.active = true;
         var rank2b = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function (datas) {
-            rank2b.initView(datas);
+            rank2b.initView(datas, playerId);
         });
     };
-    Rank2A.prototype.updateItem2B = function () {
+    Rank2A.prototype.updateItem2B = function (playerId) {
         var rank2b = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function (datas) {
-            rank2b.updateView(datas);
+            rank2b.updateView(datas, playerId);
         });
     };
     Rank2A.prototype.getBorderFriend = function (cb) {
         var _this = this;
+        console.log("getBorderFriend");
         wx.getFriendCloudStorage({
-            keyList: ["topScore"],
+            keyList: ["topScore_2A"],
             success: function (event) {
                 var data = event.data;
                 var newData = _this.parseRankData(data);
@@ -94,6 +96,7 @@ var Rank2A = (function (_super) {
     Rank2A.prototype.createFriendRankList = function (playerId) {
         var _this = this;
         this.rank2A.active = true;
+        this.my_paiming.node.active = true;
         this.rank2B.active = false;
         wx.getFriendCloudStorage({
             keyList: ["topScore_2A"],

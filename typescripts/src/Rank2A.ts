@@ -52,10 +52,10 @@ export class Rank2A extends cc.Component {
                     this.sv.clearAllData();
                     break;
                 case "4":
-                    this.initItem2B();
+                    this.initItem2B(eventData);
                     break;
                 case "5":
-                    this.updateItem2B();
+                    this.updateItem2B(eventData);
                     break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
@@ -67,22 +67,23 @@ export class Rank2A extends cc.Component {
     /**
      * 显示三行 2B排行榜
      */
-    private initItem2B() {
+    private initItem2B(playerId: string) {
         this.rank2A.active = false;
+        this.my_paiming.node.active = false;
         this.rank2B.active = true;
         var rank2b: Rank2B = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function(datas: any){
-            rank2b.initView(datas);
+            rank2b.initView(datas, playerId);
         })
     }
 
     /**
      * 更新2B
      */
-    private updateItem2B() {
+    private updateItem2B(playerId: string) {
         var rank2b: Rank2B = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function(datas: any){
-            rank2b.updateView(datas);
+            rank2b.updateView(datas, playerId);
         })
     }
 
@@ -90,8 +91,9 @@ export class Rank2A extends cc.Component {
      * 计算自己和相邻的排行
      */
     private getBorderFriend(cb: Function) {
+        console.log("getBorderFriend")
         wx.getFriendCloudStorage({
-            keyList: ["topScore"],
+            keyList: ["topScore_2A"],
             success: (event: any) => {
                 let data: Array<any> = event.data;
                 let newData = this.parseRankData(data);
@@ -108,6 +110,7 @@ export class Rank2A extends cc.Component {
      */
     private createFriendRankList(playerId: string) {
         this.rank2A.active = true;
+        this.my_paiming.node.active = true;
         this.rank2B.active = false;
         wx.getFriendCloudStorage({
             keyList: ["topScore_2A"],
