@@ -19,6 +19,10 @@ export class Rank2A extends cc.Component {
     @property(cc.ScrollView)
     private scrollView: cc.ScrollView = null;
 
+    /** mypaiming */
+    @property(cc.Label)
+    private my_paiming: cc.Label = null;
+
     private sv: ScrollView2A = null;
     private r2b: Rank2B = null;
 
@@ -36,7 +40,7 @@ export class Rank2A extends cc.Component {
             var eventData = event.EventData;
             switch(eventType) {
                 case "0":
-                    this.createFriendRankList();
+                    this.createFriendRankList(eventData);
                     break;
                 case "1":
                     this.updateFrientRankList();
@@ -102,7 +106,7 @@ export class Rank2A extends cc.Component {
     /**
      * 创建好友排行榜列表
      */
-    private createFriendRankList() {
+    private createFriendRankList(playerId: string) {
         this.rank2A.active = true;
         this.rank2B.active = false;
         wx.getFriendCloudStorage({
@@ -115,7 +119,17 @@ export class Rank2A extends cc.Component {
                 /** 异步 所以回调处理UI */
                 this.sv = this.scrollView.getComponent("ScrollView2A");
                 this.sv.init(newData);
-                // RankList.setFriendRankData(newData, this.layout, this.rankNode);
+                /** 显示自己排行榜 */
+                var index = 0;
+                newData.forEach(value => {
+                    index ++;
+                    console.log("playerId = " + playerId);
+                    console.log("vp = " + value.get("playerId"))
+                    if (+playerId == value.get("playerId")) {
+                        this.my_paiming.string = index.toString();
+                        return;
+                    }
+                })
             }
         })
     }

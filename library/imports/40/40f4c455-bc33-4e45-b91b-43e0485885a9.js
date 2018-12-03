@@ -43,6 +43,7 @@ var Rank2A = function (_super) {
         _this.rank2A = null;
         _this.rank2B = null;
         _this.scrollView = null;
+        _this.my_paiming = null;
         _this.sv = null;
         _this.r2b = null;
         return _this;
@@ -55,7 +56,7 @@ var Rank2A = function (_super) {
             var eventData = event.EventData;
             switch (eventType) {
                 case "0":
-                    _this.createFriendRankList();
+                    _this.createFriendRankList(eventData);
                     break;
                 case "1":
                     _this.updateFrientRankList();
@@ -105,7 +106,7 @@ var Rank2A = function (_super) {
             }
         });
     };
-    Rank2A.prototype.createFriendRankList = function () {
+    Rank2A.prototype.createFriendRankList = function (playerId) {
         var _this = this;
         this.rank2A.active = true;
         this.rank2B.active = false;
@@ -118,6 +119,16 @@ var Rank2A = function (_super) {
                 console.log("好友排行榜数据 => ", newData);
                 _this.sv = _this.scrollView.getComponent("ScrollView2A");
                 _this.sv.init(newData);
+                var index = 0;
+                newData.forEach(function (value) {
+                    index++;
+                    console.log("playerId = " + playerId);
+                    console.log("vp = " + value.get("playerId"));
+                    if (+playerId == value.get("playerId")) {
+                        _this.my_paiming.string = index.toString();
+                        return;
+                    }
+                });
             }
         });
     };
@@ -197,6 +208,7 @@ var Rank2A = function (_super) {
     __decorate([property(cc.Node)], Rank2A.prototype, "rank2A", void 0);
     __decorate([property(cc.Node)], Rank2A.prototype, "rank2B", void 0);
     __decorate([property(cc.ScrollView)], Rank2A.prototype, "scrollView", void 0);
+    __decorate([property(cc.Label)], Rank2A.prototype, "my_paiming", void 0);
     Rank2A = __decorate([ccclass], Rank2A);
     return Rank2A;
 }(cc.Component);
