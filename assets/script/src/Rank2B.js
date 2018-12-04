@@ -171,6 +171,15 @@ var Rank2B = (function (_super) {
         for (var i = 0; i < 3; i++) {
             var head = this.heads[i];
             var score = this.scores[i];
+            if (this.pmIndex == 0 && i == 0) {
+                this.rank_1.active = true;
+                var data = datas[0];
+                ImageHelper_1.ImageHelper.loadImage(data.get("avatarUrl"), head);
+                score.string = Number(data.get("score")).toString();
+                this.rank_2.active = false;
+                this.rank_3.active = false;
+                return;
+            }
             var data = datas[i + this.pmIndex - 1];
             if (typeof data == "undefined") {
                 console.log("xi = " + i);

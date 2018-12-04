@@ -192,6 +192,16 @@ export class Rank2B extends cc.Component {
         for (var i=0; i<3; i++) {
             var head = this.heads[i];
             var score = this.scores[i];
+            if (this.pmIndex == 0 && i == 0) {
+                /** 如果是第一 下面不显示 */
+                this.rank_1.active = true;
+                var data = datas[0];
+                ImageHelper.loadImage(data.get("avatarUrl"), head);
+                score.string = Number(data.get("score")).toString();
+                this.rank_2.active = false;
+                this.rank_3.active = false;
+                return;
+            } 
             var data = datas[i + this.pmIndex - 1];
             if (typeof data == "undefined") {
                 console.log("xi = " + i)
@@ -200,7 +210,7 @@ export class Rank2B extends cc.Component {
             }
             this.ranks[i].active = true;
             ImageHelper.loadImage(data.get("avatarUrl"), head);
-            score.string = Number(data.get("score")).toString() ;
+            score.string = Number(data.get("score")).toString();
         }
     }
 
