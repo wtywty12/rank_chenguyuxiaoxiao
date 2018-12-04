@@ -121,9 +121,7 @@ var Rank2A = function (_super) {
                 _this.sortRankInfo(newData);
                 console.log("好友排行榜数据 => ", newData);
                 _this.sv = _this.scrollView.getComponent("ScrollView2A");
-                var a = newData.concat(newData);
-                var b = a.concat(a);
-                _this.sv.init(b);
+                _this.sv.init(newData);
                 var index = 0;
                 newData.forEach(function (value) {
                     index++;
