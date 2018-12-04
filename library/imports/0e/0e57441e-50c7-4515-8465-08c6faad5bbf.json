@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "jinpai02",
+    "texture": "d9e275dd-4a52-4f10-b742-71822fdbdd61",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      45,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      45,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

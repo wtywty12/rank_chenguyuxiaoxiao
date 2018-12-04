@@ -42,8 +42,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.3348738993306126,
-      "y": 0.3348738993306126,
+      "x": 0.48,
+      "y": 0.48,
       "z": 1
     },
     "_quat": {
@@ -100,8 +100,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 800
+      "width": 495,
+      "height": 650
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -110,8 +110,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 250,
-      "y": 400,
+      "x": 247.5,
+      "y": 325,
       "z": 0
     },
     "_scale": {
@@ -161,8 +161,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 800
+      "width": 495,
+      "height": 650
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -237,9 +237,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 0,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_contentSize": {
@@ -254,8 +254,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -182,
-      "y": -356,
+      "x": -175,
+      "y": -250,
       "z": 0
     },
     "_scale": {
@@ -330,8 +330,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 625
+      "width": 495,
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -402,7 +402,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 450,
-      "height": 600
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -467,7 +467,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 450,
-      "height": 600
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -528,7 +528,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 450,
-      "height": 600
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -573,7 +573,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 450,
-      "height": 600
+      "height": 450
     },
     "_resize": 2,
     "_N$layoutType": 2,
@@ -648,7 +648,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 12,
-      "height": 600
+      "height": 450
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1059,7 +1059,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 450,
-      "height": 100
+      "height": 110
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1104,7 +1104,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a526ef60-12d7-4285-acff-4bb72a49e68e"
+      "__uuid__": "fe7dcfcc-bb7a-465c-9b35-e25c565ec909"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1390,7 +1390,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 350,
-      "height": 80
+      "height": 90
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1435,7 +1435,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a526ef60-12d7-4285-acff-4bb72a49e68e"
+      "__uuid__": "fe7dcfcc-bb7a-465c-9b35-e25c565ec909"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -1721,7 +1721,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 250,
-      "height": 60
+      "height": 70
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -1766,7 +1766,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "a526ef60-12d7-4285-acff-4bb72a49e68e"
+      "__uuid__": "fe7dcfcc-bb7a-465c-9b35-e25c565ec909"
     },
     "_type": 0,
     "_sizeMode": 0,
@@ -2005,8 +2005,8 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 500,
-      "height": 800
+      "width": 495,
+      "height": 650
     },
     "_fitWidth": false,
     "_fitHeight": true,
