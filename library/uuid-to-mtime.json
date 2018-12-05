@@ -85,13 +85,13 @@
     "relativePath": "script/src"
   },
   "95bfda3a-c769-43b8-908c-440165d5e847": {
-    "asset": 1543925455324,
-    "meta": 1543925455332,
+    "asset": 1543984347261,
+    "meta": 1543984347271,
     "relativePath": "scene/rank2A.fire"
   },
   "c7d7cbcf-1fe6-42d9-86da-c73cea1744e4": {
-    "asset": 1543923897391,
-    "meta": 1543923897398,
+    "asset": 1543983633242,
+    "meta": 1543983633280,
     "relativePath": "resources/prefabs/Item2A.prefab"
   },
   "219d842f-d98a-4239-ad7f-4cd4a2d86900": {
@@ -394,14 +394,19 @@
     "meta": 1543928527971,
     "relativePath": "script/src/Rank2A.js"
   },
-  "b8223619-7e38-47c4-841f-9160c232495a": {
-    "asset": 1541500988000,
-    "meta": 1543943654775,
-    "relativePath": "obsolete/atom.plist"
-  },
   "b2687ac4-099e-403c-a192-ff477686f4f5": {
     "asset": 1541500988000,
-    "meta": 1543943654776,
+    "meta": 1543978600153,
     "relativePath": "particle/atom.plist"
+  },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1541500988000,
+    "meta": 1543978600154,
+    "relativePath": "obsolete/atom.plist"
+  },
+  "d87235a4-54ff-40b2-b480-898f47913698": {
+    "asset": 1542594079826,
+    "meta": 1543982521712,
+    "relativePath": "resources/touxiang.png"
   }
 }
