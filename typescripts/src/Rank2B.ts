@@ -178,10 +178,12 @@ export class Rank2B extends cc.Component {
         }
         var length = datas.length;
         var max = length < 3 && length || 3;
-
+        console.log(this.playerId)
+        console.log("AA")
         /** 找到自己位置 */
         for (var i=0; i<datas.length; i++) {
             var value = datas[i];
+            console.log(value.get("playerId"))
             if (value.get("playerId") == +this.playerId) {
                 this.pmIndex = i;
                 break;
@@ -189,6 +191,12 @@ export class Rank2B extends cc.Component {
         }
         console.log(datas);
         console.log("pd = " + this.pmIndex);
+        if (this.pmIndex == -1) {
+            this.rank_1.active = false;
+            this.rank_2.active = false;
+            this.rank_3.active = false;
+            return;
+        }
         for (var i=0; i<3; i++) {
             var head = this.heads[i];
             var score = this.scores[i];
@@ -203,10 +211,11 @@ export class Rank2B extends cc.Component {
                 return;
             } 
             var data = datas[i + this.pmIndex - 1];
+            console.log(typeof(data));
             if (typeof data == "undefined") {
                 console.log("xi = " + i)
                 this.ranks[i].active = false;
-                break;
+                continue;
             }
             this.ranks[i].active = true;
             ImageHelper.loadImage(data.get("avatarUrl"), head);
