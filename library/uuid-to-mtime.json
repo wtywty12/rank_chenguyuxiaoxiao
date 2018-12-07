@@ -25,7 +25,7 @@
     "relativePath": "prefab"
   },
   "c373e426-cf3d-49b5-b6eb-8351515acbc5": {
-    "asset": 1544010332637,
+    "asset": 1544101748361,
     "meta": 1542858644012,
     "relativePath": "resources"
   },
@@ -35,7 +35,7 @@
     "relativePath": "scene"
   },
   "83af8506-2e3e-4c73-b381-d6d57681445c": {
-    "asset": 1543490294332,
+    "asset": 1544103356798,
     "meta": 1542858644021,
     "relativePath": "texture"
   },
@@ -85,13 +85,13 @@
     "relativePath": "script/src"
   },
   "95bfda3a-c769-43b8-908c-440165d5e847": {
-    "asset": 1544089310006,
-    "meta": 1544089310051,
+    "asset": 1544102591649,
+    "meta": 1544102591681,
     "relativePath": "scene/rank2A.fire"
   },
   "c7d7cbcf-1fe6-42d9-86da-c73cea1744e4": {
-    "asset": 1544010472373,
-    "meta": 1544010472393,
+    "asset": 1544152571697,
+    "meta": 1544152571706,
     "relativePath": "resources/prefabs/Item2A.prefab"
   },
   "219d842f-d98a-4239-ad7f-4cd4a2d86900": {
@@ -334,16 +334,6 @@
     "meta": 1543923004608,
     "relativePath": "resources/tiao.png"
   },
-  "b2687ac4-099e-403c-a192-ff477686f4f5": {
-    "asset": 1541500988000,
-    "meta": 1544063194409,
-    "relativePath": "particle/atom.plist"
-  },
-  "b8223619-7e38-47c4-841f-9160c232495a": {
-    "asset": 1541500988000,
-    "meta": 1544063194407,
-    "relativePath": "obsolete/atom.plist"
-  },
   "d87235a4-54ff-40b2-b480-898f47913698": {
     "asset": 1542594079826,
     "meta": 1543982521712,
@@ -355,63 +345,73 @@
     "relativePath": "resources/tiaozhujiemian.png"
   },
   "2bd9a68a-f917-47fc-91ba-e501b45017e7": {
-    "asset": 1544090332274,
-    "meta": 1544090337183,
+    "asset": 1544154140991,
+    "meta": 1544173111189,
     "relativePath": "script/src/ImageHelper.js"
   },
   "a6fea438-f2a1-4b5b-b9bd-42bfb051d341": {
-    "asset": 1544090332504,
-    "meta": 1544090337320,
+    "asset": 1544154141121,
+    "meta": 1544173111520,
     "relativePath": "script/src/Item2A.js"
   },
-  "40f4c455-bc33-4e45-b91b-43e0485885a9": {
-    "asset": 1544090332992,
-    "meta": 1544090337577,
-    "relativePath": "script/src/Rank2A.js"
-  },
   "d675dc54-7231-4ba2-81b5-7a512adc17cc": {
-    "asset": 1544090332543,
-    "meta": 1544090337916,
+    "asset": 1544154141140,
+    "meta": 1544173112100,
     "relativePath": "script/src/RankItem.js"
   },
   "5da4e82b-65ca-40de-b37b-e6951576dcb8": {
-    "asset": 1544090333117,
-    "meta": 1544090337975,
+    "asset": 1544154141562,
+    "meta": 1544173112156,
     "relativePath": "script/src/RankLayer.js"
   },
   "58cad2e7-76e1-48ff-b636-93ee86653b35": {
-    "asset": 1544090332678,
-    "meta": 1544090338212,
+    "asset": 1544154141171,
+    "meta": 1544173112397,
     "relativePath": "script/src/RankList.js"
   },
   "dea08378-9778-4bf1-b90d-3216c9a72413": {
-    "asset": 1544090332623,
-    "meta": 1544090338310,
+    "asset": 1544154141083,
+    "meta": 1544173112471,
     "relativePath": "script/src/ResourcesManager.js"
   },
   "f647a026-7da3-4a4e-ac33-91d7b1b945a2": {
-    "asset": 1544090333058,
-    "meta": 1544090338479,
+    "asset": 1544154141508,
+    "meta": 1544173112619,
     "relativePath": "script/src/ScrollView.js"
   },
   "dc8b37c6-046b-4660-9e39-dc5950bf67c9": {
-    "asset": 1544090332819,
-    "meta": 1544090338509,
+    "asset": 1544154141332,
+    "meta": 1544173112641,
     "relativePath": "script/src/ScrollView2A.js"
   },
   "be213e21-deeb-4507-b63d-7f7264afe2d7": {
-    "asset": 1544090332312,
-    "meta": 1544090338542,
+    "asset": 1544154141019,
+    "meta": 1544173112665,
     "relativePath": "script/src/StringUtils.js"
   },
   "361a365a-e342-42d9-896e-f29452f14f86": {
-    "asset": 1544090332693,
-    "meta": 1544090338545,
+    "asset": 1544154141181,
+    "meta": 1544173112667,
     "relativePath": "script/src/Tools.js"
   },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1541500988000,
+    "meta": 1544177988071,
+    "relativePath": "obsolete/atom.plist"
+  },
+  "b2687ac4-099e-403c-a192-ff477686f4f5": {
+    "asset": 1541500988000,
+    "meta": 1544177988072,
+    "relativePath": "particle/atom.plist"
+  },
   "d1d6212b-d71f-4725-8862-703f94588407": {
-    "asset": 1544092943761,
-    "meta": 1544092945225,
+    "asset": 1544179064258,
+    "meta": 1544179553722,
     "relativePath": "script/src/Rank2B.js"
+  },
+  "40f4c455-bc33-4e45-b91b-43e0485885a9": {
+    "asset": 1544188757334,
+    "meta": 1544188764566,
+    "relativePath": "script/src/Rank2A.js"
   }
 }

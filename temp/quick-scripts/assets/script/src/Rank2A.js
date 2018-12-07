@@ -73,6 +73,10 @@ var Rank2A = function (_super) {
                 case "5":
                     _this.updateItem2B(eventData);
                     break;
+                case "6":
+                    _this.sv.clearAllData();
+                    _this.updateGroup2B(eventData.playerId, eventData.shareTicket);
+                    break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
                     break;
@@ -187,6 +191,34 @@ var Rank2A = function (_super) {
             success: function success(event) {
                 var data = event.data;
                 console.log("好友排行榜数据 => ", data);
+            }
+        });
+    };
+    Rank2A.prototype.updateGroup2B = function (playerId, shareTicket) {
+        var _this = this;
+        this.rank2A.active = true;
+        this.my_paiming.node.active = true;
+        this.rank2B.active = false;
+        wx.getGroupCloudStorage({
+            shareTicket: shareTicket,
+            keyList: ["topScore_2A"],
+            success: function success(event) {
+                var data = event.data;
+                var newData = _this.parseRankData(data);
+                _this.sortRankInfo(newData);
+                console.log("好友排行榜数据 => ", newData);
+                _this.sv = _this.scrollView.getComponent("ScrollView2A");
+                _this.sv.init(newData);
+                var index = 0;
+                newData.forEach(function (value) {
+                    index++;
+                    console.log("playerId = " + playerId);
+                    console.log("vp = " + value.get("playerId"));
+                    if (+playerId == value.get("playerId")) {
+                        _this.my_paiming.string = index.toString();
+                        return;
+                    }
+                });
             }
         });
     };

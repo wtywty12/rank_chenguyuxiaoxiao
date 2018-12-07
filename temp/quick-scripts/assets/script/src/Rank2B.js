@@ -80,8 +80,6 @@ var Rank2B = function (_super) {
         this.updateItemInfo(2);
     };
     Rank2B.prototype.analyData = function (playerId) {
-        console.log(this.datas);
-        console.log(this.old_datas);
         for (var i = 0; i < this.datas.length; i++) {
             var data = this.datas[i];
             if (+playerId == data.get("playerId")) {
@@ -89,7 +87,6 @@ var Rank2B = function (_super) {
                 break;
             }
         }
-        console.log("this.pmIndex = " + this.pmIndex);
         if (this.pmIndex != -1) {
             for (var i = 0; i < 3; i++) {
                 var data = this.old_datas[i];
@@ -98,9 +95,7 @@ var Rank2B = function (_super) {
                     break;
                 }
             }
-            console.log("old_pmIndex = " + this.old_pmIndex);
             if (this.pmIndex < this.old_pmIndex) {
-                console.log("i = " + i);
                 if (i != 0) {
                     this.upScore = this.datas[i - 1].get("score");
                     this.mySore = data.get("score");
@@ -110,7 +105,6 @@ var Rank2B = function (_super) {
                     }
                 }
             } else if (this.pmIndex > this.old_pmIndex) {
-                console.log("di = " + i);
                 if (i != 2) {
                     this.downScore = this.datas[i + 1].get("score");
                     this.mySore = data.get("score");
@@ -134,7 +128,6 @@ var Rank2B = function (_super) {
             var rank = this.ranks[i];
             var width = rank.width;
             var moveBy = cc.moveBy(this.moveTime, cc.v2(width, 0));
-            console.log("isUpMove = " + this.isUpMove);
             if (this.isUpMove) {
                 if (i == this.pmIndex) {
                     var upRank = this.ranks[this.pmIndex - 1];
@@ -171,18 +164,13 @@ var Rank2B = function (_super) {
         }
         var length = datas.length;
         var max = length < 3 && length || 3;
-        console.log(this.playerId);
-        console.log("AA");
         for (var i = 0; i < datas.length; i++) {
             var value = datas[i];
-            console.log(value.get("playerId"));
             if (value.get("playerId") == +this.playerId) {
                 this.pmIndex = i;
                 break;
             }
         }
-        console.log(datas);
-        console.log("pd = " + this.pmIndex);
         if (this.pmIndex == -1) {
             this.rank_1.active = false;
             this.rank_2.active = false;
@@ -202,9 +190,7 @@ var Rank2B = function (_super) {
                 return;
             }
             var data = datas[i + this.pmIndex - 1];
-            console.log(typeof data === "undefined" ? "undefined" : _typeof(data));
             if (typeof data == "undefined") {
-                console.log("xi = " + i);
                 this.ranks[i].active = false;
                 continue;
             }

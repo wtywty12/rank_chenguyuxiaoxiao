@@ -77,8 +77,6 @@ export class Rank2B extends cc.Component {
      * 三个好友
      */
     private analyData(playerId: string) {
-        console.log(this.datas)
-        console.log(this.old_datas)
         /** 取前三数据 看是否有自己 */
         for (var i=0; i<this.datas.length; i++) {
             var data = this.datas[i];
@@ -88,7 +86,6 @@ export class Rank2B extends cc.Component {
             }
         }
         /** 前三有自己 比对是否和原来相同 */
-        console.log("this.pmIndex = " + this.pmIndex)
         if (this.pmIndex != -1) {
             for (var i=0; i<3; i++) {
                 var data = this.old_datas[i];
@@ -97,10 +94,8 @@ export class Rank2B extends cc.Component {
                     break;
                 }
             }
-            console.log("old_pmIndex = " + this.old_pmIndex)
             if (this.pmIndex < this.old_pmIndex) {
                 /** 排名上升 判定是否大于上一名 */
-                console.log("i = " + i)
                 if (i != 0) {
                     this.upScore = this.datas[i-1].get("score");
                     this.mySore = data.get("score");
@@ -111,7 +106,6 @@ export class Rank2B extends cc.Component {
                 }
             } else if (this.pmIndex > this.old_pmIndex) {
                 /** 排名下降 判定是否小于下一名 */
-                console.log("di = " + i)
                 if (i != 2) {
                     this.downScore = this.datas[i+1].get("score");
                     this.mySore = data.get("score");
@@ -138,7 +132,6 @@ export class Rank2B extends cc.Component {
             var rank = this.ranks[i];
             var width = rank.width;
             var moveBy = cc.moveBy(this.moveTime, cc.v2(width, 0));
-            console.log("isUpMove = " + this.isUpMove)
             if (this.isUpMove) {
                 if (i == this.pmIndex) {
                     /** 向上移动 */
@@ -178,19 +171,14 @@ export class Rank2B extends cc.Component {
         }
         var length = datas.length;
         var max = length < 3 && length || 3;
-        console.log(this.playerId)
-        console.log("AA")
         /** 找到自己位置 */
         for (var i=0; i<datas.length; i++) {
             var value = datas[i];
-            console.log(value.get("playerId"))
             if (value.get("playerId") == +this.playerId) {
                 this.pmIndex = i;
                 break;
             }
         }
-        console.log(datas);
-        console.log("pd = " + this.pmIndex);
         if (this.pmIndex == -1) {
             this.rank_1.active = false;
             this.rank_2.active = false;
@@ -211,9 +199,7 @@ export class Rank2B extends cc.Component {
                 return;
             } 
             var data = datas[i + this.pmIndex - 1];
-            console.log(typeof(data));
             if (typeof data == "undefined") {
-                console.log("xi = " + i)
                 this.ranks[i].active = false;
                 continue;
             }

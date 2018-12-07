@@ -57,6 +57,10 @@ export class Rank2A extends cc.Component {
                 case "5":
                     this.updateItem2B(eventData);
                     break;
+                case "6":
+                    this.sv.clearAllData();
+                    this.updateGroup2B(eventData.playerId, eventData.shareTicket);
+                    break;
                 default:
                     console.log("主域消息没有被使用,消息Type = " + eventType);
                     break;
@@ -205,6 +209,39 @@ export class Rank2A extends cc.Component {
                 let data = event.data;
                 console.log("好友排行榜数据 => ", data);
                 /** 异步 所以回调处理UI */
+            }
+        })
+    }
+
+    /**
+     * 创建好友排行榜列表
+     */
+    private updateGroup2B(playerId: string, shareTicket: string) {
+        this.rank2A.active = true;
+        this.my_paiming.node.active = true;
+        this.rank2B.active = false;
+        wx.getGroupCloudStorage({
+            shareTicket: shareTicket,
+            keyList: ["topScore_2A"],
+            success: (event: any) => {
+                let data: Array<any> = event.data;
+                let newData = this.parseRankData(data);
+                this.sortRankInfo(newData);
+                console.log("好友排行榜数据 => ", newData);
+                /** 异步 所以回调处理UI */
+                this.sv = this.scrollView.getComponent("ScrollView2A");
+                this.sv.init(newData);
+                /** 显示自己排行榜 */
+                var index = 0;
+                newData.forEach(value => {
+                    index ++;
+                    console.log("playerId = " + playerId);
+                    console.log("vp = " + value.get("playerId"))
+                    if (+playerId == value.get("playerId")) {
+                        this.my_paiming.string = index.toString();
+                        return;
+                    }
+                })
             }
         })
     }

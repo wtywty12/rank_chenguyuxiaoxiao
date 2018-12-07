@@ -2,9 +2,19 @@ import ccclass = cc._decorator.ccclass;
 import property = cc._decorator.property;
 import {ImageHelper} from "./ImageHelper";
 import {StringUtils} from "./StringUtils";
+import { ResourcesManager } from "./ResourcesManager";
 
 @ccclass
 export class Item2A extends cc.Component {
+
+    @property(cc.Sprite)
+    private sp_paiming_1: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    private sp_paiming_2: cc.Sprite = null;
+
+    @property(cc.Sprite)
+    private sp_paiming_3: cc.Sprite = null;
 
     @property(cc.Label)
     private lbl_paiming: cc.Label = null;
@@ -50,7 +60,18 @@ export class Item2A extends cc.Component {
         if (typeof(str) != "string") {
             return;
         }
-        this.lbl_paiming.string = str;
+        if (+str == 1) {
+            this.sp_paiming_1.node.active = true;
+            this.lbl_paiming.node.active = false;
+        } else if (+str == 2) {
+            this.sp_paiming_2.node.active = true;
+            this.lbl_paiming.node.active = false;
+        } else if (+str == 3) {
+            this.sp_paiming_3.node.active = true;
+            this.lbl_paiming.node.active = false;
+        } else {
+            this.lbl_paiming.string = str;
+        }
     }
 
     public setNickName(str: string) {

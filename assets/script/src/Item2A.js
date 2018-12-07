@@ -26,6 +26,9 @@ var Item2A = (function (_super) {
     __extends(Item2A, _super);
     function Item2A() {
         var _this = _super.call(this) || this;
+        _this.sp_paiming_1 = null;
+        _this.sp_paiming_2 = null;
+        _this.sp_paiming_3 = null;
         _this.lbl_paiming = null;
         _this.lbl_nickName = null;
         _this.lbl_winGame = null;
@@ -53,7 +56,21 @@ var Item2A = (function (_super) {
         if (typeof (str) != "string") {
             return;
         }
-        this.lbl_paiming.string = str;
+        if (+str == 1) {
+            this.sp_paiming_1.node.active = true;
+            this.lbl_paiming.node.active = false;
+        }
+        else if (+str == 2) {
+            this.sp_paiming_2.node.active = true;
+            this.lbl_paiming.node.active = false;
+        }
+        else if (+str == 3) {
+            this.sp_paiming_3.node.active = true;
+            this.lbl_paiming.node.active = false;
+        }
+        else {
+            this.lbl_paiming.string = str;
+        }
     };
     Item2A.prototype.setNickName = function (str) {
         if (typeof (str) != "string") {
@@ -79,6 +96,15 @@ var Item2A = (function (_super) {
         }
         ImageHelper_1.ImageHelper.loadImage(url, this.img_head);
     };
+    __decorate([
+        property(cc.Sprite)
+    ], Item2A.prototype, "sp_paiming_1", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], Item2A.prototype, "sp_paiming_2", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], Item2A.prototype, "sp_paiming_3", void 0);
     __decorate([
         property(cc.Label)
     ], Item2A.prototype, "lbl_paiming", void 0);
