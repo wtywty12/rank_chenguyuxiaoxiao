@@ -29,6 +29,7 @@ var Rank2A = (function (_super) {
         _this.rank2B = null;
         _this.scrollView = null;
         _this.my_paiming = null;
+        _this.my_score = null;
         _this.sv = null;
         _this.r2b = null;
         return _this;
@@ -50,7 +51,9 @@ var Rank2A = (function (_super) {
                     _this.submitTopScore(eventData.score, eventData.chenghao, eventData.playerId);
                     break;
                 case "3":
-                    _this.sv.clearAllData();
+                    if (_this.sv && typeof _this.sv.clearAllData == "function") {
+                        _this.sv.clearAllData();
+                    }
                     break;
                 case "4":
                     _this.initItem2B(eventData);
@@ -59,7 +62,9 @@ var Rank2A = (function (_super) {
                     _this.updateItem2B(eventData);
                     break;
                 case "6":
-                    _this.sv.clearAllData();
+                    if (_this.sv && typeof _this.sv.clearAllData == "function") {
+                        _this.sv.clearAllData();
+                    }
                     _this.updateGroup2B(eventData.playerId, eventData.shareTicket);
                     break;
                 default:
@@ -71,6 +76,7 @@ var Rank2A = (function (_super) {
     Rank2A.prototype.initItem2B = function (playerId) {
         this.rank2A.active = false;
         this.my_paiming.node.active = false;
+        this.my_score.node.active = false;
         this.rank2B.active = true;
         var rank2b = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function (datas) {
@@ -101,6 +107,7 @@ var Rank2A = (function (_super) {
         var _this = this;
         this.rank2A.active = true;
         this.my_paiming.node.active = true;
+        this.my_score.node.active = true;
         this.rank2B.active = false;
         wx.getFriendCloudStorage({
             keyList: ["topScore_2A"],
@@ -118,6 +125,7 @@ var Rank2A = (function (_super) {
                     console.log("vp = " + value.get("playerId"));
                     if (+playerId == value.get("playerId")) {
                         _this.my_paiming.string = index.toString();
+                        _this.my_score.string = value.get("score");
                         return;
                     }
                 });
@@ -183,6 +191,7 @@ var Rank2A = (function (_super) {
         var _this = this;
         this.rank2A.active = true;
         this.my_paiming.node.active = true;
+        this.my_score.node.active = true;
         this.rank2B.active = false;
         wx.getGroupCloudStorage({
             shareTicket: shareTicket,
@@ -201,6 +210,7 @@ var Rank2A = (function (_super) {
                     console.log("vp = " + value.get("playerId"));
                     if (+playerId == value.get("playerId")) {
                         _this.my_paiming.string = index.toString();
+                        _this.my_score.string = value.get("score");
                         return;
                     }
                 });
@@ -237,6 +247,9 @@ var Rank2A = (function (_super) {
     __decorate([
         property(cc.Label)
     ], Rank2A.prototype, "my_paiming", void 0);
+    __decorate([
+        property(cc.Label)
+    ], Rank2A.prototype, "my_score", void 0);
     Rank2A = __decorate([
         ccclass
     ], Rank2A);

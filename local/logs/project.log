@@ -1,62 +1,62 @@
-2018-12-10T02:04:36.631Z - normal: Load ~/.CocosCreator/settings.json
-2018-12-10T02:04:36.635Z - normal: checking language setting...
-2018-12-10T02:04:36.636Z - normal: Language: zh
-2018-12-10T02:04:37.312Z - success: protocol editor-framework registered
-2018-12-10T02:04:37.312Z - success: protocol app registered
-2018-12-10T02:04:37.313Z - success: protocol theme registered
-2018-12-10T02:04:37.313Z - success: protocol packages registered
-2018-12-10T02:04:37.314Z - success: protocol unpack registerred
-2018-12-10T02:04:37.314Z - success: protocol disable-commonjs registerred
-2018-12-10T02:04:37.395Z - normal: connected!
-2018-12-10T02:04:37.398Z - normal: Check project /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T02:04:37.402Z - normal: Initializing project /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T02:04:37.409Z - normal: Initializing Cocos2d
-2018-12-10T02:04:38.171Z - normal: Initializing Asset Database
-2018-12-10T02:04:38.219Z - success: protocol uuid registerred
-2018-12-10T02:04:38.219Z - success: protocol db registerred
-2018-12-10T02:04:38.220Z - success: protocol thumbnail registerred
-2018-12-10T02:04:38.220Z - normal: Loading editor/builtin packages
-2018-12-10T02:04:38.387Z - success: assets loaded
-2018-12-10T02:04:38.392Z - success: builder loaded
-2018-12-10T02:04:38.395Z - success: cocos-analytics loaded
-2018-12-10T02:04:38.400Z - success: console loaded
-2018-12-10T02:04:38.443Z - success: fb-instant-games loaded
-2018-12-10T02:04:38.446Z - success: google-instant-games loaded
-2018-12-10T02:04:38.453Z - success: hierarchy loaded
-2018-12-10T02:04:38.459Z - success: inspector loaded
-2018-12-10T02:04:38.461Z - success: keystore loaded
-2018-12-10T02:04:38.467Z - success: node-library loaded
-2018-12-10T02:04:38.469Z - success: package-asset loaded
-2018-12-10T02:04:38.471Z - success: preferences loaded
-2018-12-10T02:04:38.476Z - success: project-exporter loaded
-2018-12-10T02:04:38.494Z - success: project-importer loaded
-2018-12-10T02:04:38.499Z - success: project-settings loaded
-2018-12-10T02:04:38.504Z - success: ui-kit loaded
-2018-12-10T02:04:38.510Z - success: scene loaded
-2018-12-10T02:04:38.512Z - success: sprite-editor loaded
-2018-12-10T02:04:38.518Z - success: store loaded
-2018-12-10T02:04:38.526Z - success: timeline loaded
-2018-12-10T02:04:38.526Z - normal: Loading builtin packages
-2018-12-10T02:04:38.532Z - success: asset-db-debugger loaded
-2018-12-10T02:04:38.534Z - success: color-picker loaded
-2018-12-10T02:04:38.632Z - success: google-play-instant loaded
-2018-12-10T02:04:38.634Z - success: jsb-adapter loaded
-2018-12-10T02:04:38.638Z - success: oppo-runtime loaded
-2018-12-10T02:04:38.644Z - success: package-manager loaded
-2018-12-10T02:04:38.754Z - success: qqplay-adapter loaded
-2018-12-10T02:04:38.761Z - success: sdkbox loaded
-2018-12-10T02:04:38.766Z - success: tester loaded
-2018-12-10T02:04:38.773Z - success: ui-grid loaded
-2018-12-10T02:04:38.779Z - success: ui-kit-preview-extra loaded
-2018-12-10T02:04:38.783Z - success: ui-kit-preview loaded
-2018-12-10T02:04:38.787Z - success: ui-tree loaded
-2018-12-10T02:04:38.790Z - success: vivo-runtime loaded
-2018-12-10T02:04:38.792Z - success: weapp-adapter loaded
-2018-12-10T02:04:40.071Z - normal: Loading packages
-2018-12-10T02:04:40.085Z - normal: Watching packages
-2018-12-10T02:04:40.206Z - normal: Run Application
-2018-12-10T02:04:41.260Z - success: preview server running at http://localhost:7457
-2018-12-10T02:09:13.365Z - normal: Start building with options : {
+2018-12-11T02:19:09.712Z - normal: Load ~/.CocosCreator/settings.json
+2018-12-11T02:19:09.716Z - normal: checking language setting...
+2018-12-11T02:19:09.717Z - normal: Language: zh
+2018-12-11T02:19:10.329Z - success: protocol editor-framework registered
+2018-12-11T02:19:10.330Z - success: protocol app registered
+2018-12-11T02:19:10.330Z - success: protocol theme registered
+2018-12-11T02:19:10.331Z - success: protocol packages registered
+2018-12-11T02:19:10.331Z - success: protocol unpack registerred
+2018-12-11T02:19:10.332Z - success: protocol disable-commonjs registerred
+2018-12-11T02:19:10.409Z - normal: connected!
+2018-12-11T02:19:10.413Z - normal: Check project /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T02:19:10.416Z - normal: Initializing project /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T02:19:10.423Z - normal: Initializing Cocos2d
+2018-12-11T02:19:11.132Z - normal: Initializing Asset Database
+2018-12-11T02:19:11.176Z - success: protocol uuid registerred
+2018-12-11T02:19:11.177Z - success: protocol db registerred
+2018-12-11T02:19:11.177Z - success: protocol thumbnail registerred
+2018-12-11T02:19:11.177Z - normal: Loading editor/builtin packages
+2018-12-11T02:19:11.330Z - success: assets loaded
+2018-12-11T02:19:11.334Z - success: builder loaded
+2018-12-11T02:19:11.337Z - success: cocos-analytics loaded
+2018-12-11T02:19:11.342Z - success: console loaded
+2018-12-11T02:19:11.384Z - success: fb-instant-games loaded
+2018-12-11T02:19:11.386Z - success: google-instant-games loaded
+2018-12-11T02:19:11.394Z - success: hierarchy loaded
+2018-12-11T02:19:11.399Z - success: inspector loaded
+2018-12-11T02:19:11.400Z - success: keystore loaded
+2018-12-11T02:19:11.406Z - success: node-library loaded
+2018-12-11T02:19:11.408Z - success: package-asset loaded
+2018-12-11T02:19:11.410Z - success: preferences loaded
+2018-12-11T02:19:11.415Z - success: project-exporter loaded
+2018-12-11T02:19:11.431Z - success: project-importer loaded
+2018-12-11T02:19:11.436Z - success: project-settings loaded
+2018-12-11T02:19:11.440Z - success: ui-kit loaded
+2018-12-11T02:19:11.446Z - success: scene loaded
+2018-12-11T02:19:11.447Z - success: sprite-editor loaded
+2018-12-11T02:19:11.453Z - success: store loaded
+2018-12-11T02:19:11.459Z - success: timeline loaded
+2018-12-11T02:19:11.459Z - normal: Loading builtin packages
+2018-12-11T02:19:11.465Z - success: asset-db-debugger loaded
+2018-12-11T02:19:11.466Z - success: color-picker loaded
+2018-12-11T02:19:11.558Z - success: google-play-instant loaded
+2018-12-11T02:19:11.559Z - success: jsb-adapter loaded
+2018-12-11T02:19:11.563Z - success: oppo-runtime loaded
+2018-12-11T02:19:11.568Z - success: package-manager loaded
+2018-12-11T02:19:11.664Z - success: qqplay-adapter loaded
+2018-12-11T02:19:11.670Z - success: sdkbox loaded
+2018-12-11T02:19:11.675Z - success: tester loaded
+2018-12-11T02:19:11.680Z - success: ui-grid loaded
+2018-12-11T02:19:11.684Z - success: ui-kit-preview-extra loaded
+2018-12-11T02:19:11.688Z - success: ui-kit-preview loaded
+2018-12-11T02:19:11.692Z - success: ui-tree loaded
+2018-12-11T02:19:11.694Z - success: vivo-runtime loaded
+2018-12-11T02:19:11.696Z - success: weapp-adapter loaded
+2018-12-11T02:19:12.710Z - normal: Loading packages
+2018-12-11T02:19:12.717Z - normal: Watching packages
+2018-12-11T02:19:12.814Z - normal: Run Application
+2018-12-11T02:19:13.387Z - success: preview server running at http://localhost:7457
+2018-12-11T05:12:22.584Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -151,21 +151,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T02:09:13.373Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T02:09:13.373Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T02:09:14.046Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T02:09:20.111Z - normal: Start building assets
-2018-12-10T02:09:20.113Z - normal: Start spawn build-worker
-2018-12-10T02:09:21.360Z - normal: Finish spawn build-worker
-2018-12-10T02:09:21.361Z - normal: Start init build-worker
-2018-12-10T02:09:27.371Z - normal: Finish init build-worker
-2018-12-10T02:09:27.372Z - normal: Start build-assets in worker
-2018-12-10T02:09:28.057Z - normal: Finish build-assets in worker
-2018-12-10T02:09:28.064Z - normal: Finish building assets
-2018-12-10T02:09:28.077Z - normal: Start building plugin scripts
-2018-12-10T02:09:28.134Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T02:09:29.957Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T02:11:40.095Z - normal: Start building with options : {
+2018-12-11T05:12:22.592Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:12:22.592Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:12:23.320Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:12:28.499Z - normal: Start building assets
+2018-12-11T05:12:28.500Z - normal: Start spawn build-worker
+2018-12-11T05:12:29.487Z - normal: Finish spawn build-worker
+2018-12-11T05:12:29.487Z - normal: Start init build-worker
+2018-12-11T05:12:34.934Z - normal: Finish init build-worker
+2018-12-11T05:12:34.936Z - normal: Start build-assets in worker
+2018-12-11T05:12:35.423Z - normal: Finish build-assets in worker
+2018-12-11T05:12:35.430Z - normal: Finish building assets
+2018-12-11T05:12:35.448Z - normal: Start building plugin scripts
+2018-12-11T05:12:35.498Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:12:38.271Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:20:50.826Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -260,21 +260,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T02:11:40.103Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T02:11:40.103Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T02:11:40.112Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T02:11:45.788Z - normal: Start building assets
-2018-12-10T02:11:45.788Z - normal: Start spawn build-worker
-2018-12-10T02:11:47.626Z - normal: Finish spawn build-worker
-2018-12-10T02:11:47.626Z - normal: Start init build-worker
-2018-12-10T02:11:55.231Z - normal: Finish init build-worker
-2018-12-10T02:11:55.232Z - normal: Start build-assets in worker
-2018-12-10T02:11:56.189Z - normal: Finish build-assets in worker
-2018-12-10T02:11:56.212Z - normal: Finish building assets
-2018-12-10T02:11:56.228Z - normal: Start building plugin scripts
-2018-12-10T02:11:56.288Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T02:11:59.149Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T02:29:48.759Z - normal: Start building with options : {
+2018-12-11T05:20:50.832Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:20:50.832Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:20:50.834Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:20:54.937Z - normal: Start building assets
+2018-12-11T05:20:54.938Z - normal: Start spawn build-worker
+2018-12-11T05:20:55.876Z - normal: Finish spawn build-worker
+2018-12-11T05:20:55.877Z - normal: Start init build-worker
+2018-12-11T05:21:00.071Z - normal: Finish init build-worker
+2018-12-11T05:21:00.072Z - normal: Start build-assets in worker
+2018-12-11T05:21:00.477Z - normal: Finish build-assets in worker
+2018-12-11T05:21:00.481Z - normal: Finish building assets
+2018-12-11T05:21:00.496Z - normal: Start building plugin scripts
+2018-12-11T05:21:00.540Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:21:02.208Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:23:45.219Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -369,21 +369,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T02:29:48.765Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T02:29:48.766Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T02:29:48.772Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T02:29:54.097Z - normal: Start building assets
-2018-12-10T02:29:54.097Z - normal: Start spawn build-worker
-2018-12-10T02:29:55.295Z - normal: Finish spawn build-worker
-2018-12-10T02:29:55.295Z - normal: Start init build-worker
-2018-12-10T02:30:00.162Z - normal: Finish init build-worker
-2018-12-10T02:30:00.163Z - normal: Start build-assets in worker
-2018-12-10T02:30:00.754Z - normal: Finish build-assets in worker
-2018-12-10T02:30:00.766Z - normal: Finish building assets
-2018-12-10T02:30:00.783Z - normal: Start building plugin scripts
-2018-12-10T02:30:00.832Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T02:30:04.175Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:04:54.502Z - normal: Start building with options : {
+2018-12-11T05:23:45.227Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:23:45.227Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:23:45.230Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:23:49.869Z - normal: Start building assets
+2018-12-11T05:23:49.869Z - normal: Start spawn build-worker
+2018-12-11T05:23:51.091Z - normal: Finish spawn build-worker
+2018-12-11T05:23:51.091Z - normal: Start init build-worker
+2018-12-11T05:23:56.844Z - normal: Finish init build-worker
+2018-12-11T05:23:56.846Z - normal: Start build-assets in worker
+2018-12-11T05:23:57.434Z - normal: Finish build-assets in worker
+2018-12-11T05:23:57.442Z - normal: Finish building assets
+2018-12-11T05:23:57.457Z - normal: Start building plugin scripts
+2018-12-11T05:23:57.498Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:23:59.490Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:36:53.968Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -478,21 +478,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:04:54.512Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:04:54.512Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:04:54.519Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:05:02.716Z - normal: Start building assets
-2018-12-10T03:05:02.718Z - normal: Start spawn build-worker
-2018-12-10T03:05:04.576Z - normal: Finish spawn build-worker
-2018-12-10T03:05:04.576Z - normal: Start init build-worker
-2018-12-10T03:05:11.698Z - normal: Finish init build-worker
-2018-12-10T03:05:11.701Z - normal: Start build-assets in worker
-2018-12-10T03:05:12.330Z - normal: Finish build-assets in worker
-2018-12-10T03:05:12.353Z - normal: Finish building assets
-2018-12-10T03:05:12.370Z - normal: Start building plugin scripts
-2018-12-10T03:05:12.417Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:05:14.740Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:10:19.168Z - normal: Start building with options : {
+2018-12-11T05:36:53.975Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:36:53.976Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:36:53.978Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:36:58.521Z - normal: Start building assets
+2018-12-11T05:36:58.522Z - normal: Start spawn build-worker
+2018-12-11T05:36:59.579Z - normal: Finish spawn build-worker
+2018-12-11T05:36:59.579Z - normal: Start init build-worker
+2018-12-11T05:37:05.326Z - normal: Finish init build-worker
+2018-12-11T05:37:05.326Z - normal: Start build-assets in worker
+2018-12-11T05:37:05.862Z - normal: Finish build-assets in worker
+2018-12-11T05:37:05.874Z - normal: Finish building assets
+2018-12-11T05:37:05.889Z - normal: Start building plugin scripts
+2018-12-11T05:37:05.930Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:37:07.942Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:37:55.567Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -587,21 +587,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:10:19.175Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:10:19.176Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:10:19.182Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:10:24.833Z - normal: Start building assets
-2018-12-10T03:10:24.835Z - normal: Start spawn build-worker
-2018-12-10T03:10:26.004Z - normal: Finish spawn build-worker
-2018-12-10T03:10:26.004Z - normal: Start init build-worker
-2018-12-10T03:10:33.252Z - normal: Finish init build-worker
-2018-12-10T03:10:33.254Z - normal: Start build-assets in worker
-2018-12-10T03:10:33.971Z - normal: Finish build-assets in worker
-2018-12-10T03:10:33.977Z - normal: Finish building assets
-2018-12-10T03:10:33.993Z - normal: Start building plugin scripts
-2018-12-10T03:10:34.044Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:10:36.058Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:14:44.969Z - normal: Start building with options : {
+2018-12-11T05:37:55.568Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:37:55.569Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:37:55.570Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:38:00.166Z - normal: Start building assets
+2018-12-11T05:38:00.166Z - normal: Start spawn build-worker
+2018-12-11T05:38:01.283Z - normal: Finish spawn build-worker
+2018-12-11T05:38:01.284Z - normal: Start init build-worker
+2018-12-11T05:38:06.765Z - normal: Finish init build-worker
+2018-12-11T05:38:06.766Z - normal: Start build-assets in worker
+2018-12-11T05:38:07.297Z - normal: Finish build-assets in worker
+2018-12-11T05:38:07.306Z - normal: Finish building assets
+2018-12-11T05:38:07.320Z - normal: Start building plugin scripts
+2018-12-11T05:38:07.368Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:38:09.111Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:49:30.019Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -696,21 +696,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:14:44.976Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:14:44.977Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:14:44.982Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:14:49.536Z - normal: Start building assets
-2018-12-10T03:14:49.537Z - normal: Start spawn build-worker
-2018-12-10T03:14:50.803Z - normal: Finish spawn build-worker
-2018-12-10T03:14:50.804Z - normal: Start init build-worker
-2018-12-10T03:14:56.586Z - normal: Finish init build-worker
-2018-12-10T03:14:56.587Z - normal: Start build-assets in worker
-2018-12-10T03:14:57.292Z - normal: Finish build-assets in worker
-2018-12-10T03:14:57.315Z - normal: Finish building assets
-2018-12-10T03:14:57.333Z - normal: Start building plugin scripts
-2018-12-10T03:14:57.378Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:14:59.993Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:16:23.953Z - normal: Start building with options : {
+2018-12-11T05:49:30.026Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:49:30.027Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:49:30.030Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:49:35.727Z - normal: Start building assets
+2018-12-11T05:49:35.728Z - normal: Start spawn build-worker
+2018-12-11T05:49:37.464Z - normal: Finish spawn build-worker
+2018-12-11T05:49:37.464Z - normal: Start init build-worker
+2018-12-11T05:49:42.923Z - normal: Finish init build-worker
+2018-12-11T05:49:42.925Z - normal: Start build-assets in worker
+2018-12-11T05:49:43.498Z - normal: Finish build-assets in worker
+2018-12-11T05:49:43.506Z - normal: Finish building assets
+2018-12-11T05:49:43.517Z - normal: Start building plugin scripts
+2018-12-11T05:49:43.571Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:49:46.161Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:50:47.361Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -805,21 +805,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:16:23.957Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:16:23.957Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:16:23.961Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:16:28.637Z - normal: Start building assets
-2018-12-10T03:16:28.637Z - normal: Start spawn build-worker
-2018-12-10T03:16:29.776Z - normal: Finish spawn build-worker
-2018-12-10T03:16:29.776Z - normal: Start init build-worker
-2018-12-10T03:16:34.980Z - normal: Finish init build-worker
-2018-12-10T03:16:34.981Z - normal: Start build-assets in worker
-2018-12-10T03:16:35.472Z - normal: Finish build-assets in worker
-2018-12-10T03:16:35.478Z - normal: Finish building assets
-2018-12-10T03:16:35.488Z - normal: Start building plugin scripts
-2018-12-10T03:16:35.547Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:16:37.398Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:20:11.425Z - normal: Start building with options : {
+2018-12-11T05:50:47.362Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:50:47.362Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:50:47.364Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:50:52.291Z - normal: Start building assets
+2018-12-11T05:50:52.292Z - normal: Start spawn build-worker
+2018-12-11T05:50:53.499Z - normal: Finish spawn build-worker
+2018-12-11T05:50:53.499Z - normal: Start init build-worker
+2018-12-11T05:50:59.391Z - normal: Finish init build-worker
+2018-12-11T05:50:59.392Z - normal: Start build-assets in worker
+2018-12-11T05:50:59.911Z - normal: Finish build-assets in worker
+2018-12-11T05:50:59.925Z - normal: Finish building assets
+2018-12-11T05:50:59.935Z - normal: Start building plugin scripts
+2018-12-11T05:50:59.971Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:51:01.906Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T05:51:39.345Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -914,21 +914,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:20:11.434Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:20:11.434Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:20:11.439Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:20:16.544Z - normal: Start building assets
-2018-12-10T03:20:16.545Z - normal: Start spawn build-worker
-2018-12-10T03:20:17.768Z - normal: Finish spawn build-worker
-2018-12-10T03:20:17.768Z - normal: Start init build-worker
-2018-12-10T03:20:26.173Z - normal: Finish init build-worker
-2018-12-10T03:20:26.173Z - normal: Start build-assets in worker
-2018-12-10T03:20:27.051Z - normal: Finish build-assets in worker
-2018-12-10T03:20:27.063Z - normal: Finish building assets
-2018-12-10T03:20:27.079Z - normal: Start building plugin scripts
-2018-12-10T03:20:27.141Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:20:28.938Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:21:05.149Z - normal: Start building with options : {
+2018-12-11T05:51:39.347Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T05:51:39.348Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T05:51:39.349Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T05:51:45.747Z - normal: Start building assets
+2018-12-11T05:51:45.748Z - normal: Start spawn build-worker
+2018-12-11T05:51:46.981Z - normal: Finish spawn build-worker
+2018-12-11T05:51:46.982Z - normal: Start init build-worker
+2018-12-11T05:51:52.168Z - normal: Finish init build-worker
+2018-12-11T05:51:52.168Z - normal: Start build-assets in worker
+2018-12-11T05:51:52.794Z - normal: Finish build-assets in worker
+2018-12-11T05:51:52.802Z - normal: Finish building assets
+2018-12-11T05:51:52.817Z - normal: Start building plugin scripts
+2018-12-11T05:51:52.891Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T05:51:55.740Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T06:18:20.007Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1023,21 +1023,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:21:05.151Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:21:05.151Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:21:05.153Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:21:10.958Z - normal: Start building assets
-2018-12-10T03:21:10.958Z - normal: Start spawn build-worker
-2018-12-10T03:21:12.460Z - normal: Finish spawn build-worker
-2018-12-10T03:21:12.460Z - normal: Start init build-worker
-2018-12-10T03:21:18.243Z - normal: Finish init build-worker
-2018-12-10T03:21:18.244Z - normal: Start build-assets in worker
-2018-12-10T03:21:18.954Z - normal: Finish build-assets in worker
-2018-12-10T03:21:18.959Z - normal: Finish building assets
-2018-12-10T03:21:18.972Z - normal: Start building plugin scripts
-2018-12-10T03:21:19.015Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:21:21.610Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:26:50.330Z - normal: Start building with options : {
+2018-12-11T06:18:20.014Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T06:18:20.015Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T06:18:20.019Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T06:18:25.226Z - normal: Start building assets
+2018-12-11T06:18:25.226Z - normal: Start spawn build-worker
+2018-12-11T06:18:26.533Z - normal: Finish spawn build-worker
+2018-12-11T06:18:26.533Z - normal: Start init build-worker
+2018-12-11T06:18:33.045Z - normal: Finish init build-worker
+2018-12-11T06:18:33.047Z - normal: Start build-assets in worker
+2018-12-11T06:18:33.696Z - normal: Finish build-assets in worker
+2018-12-11T06:18:33.702Z - normal: Finish building assets
+2018-12-11T06:18:33.716Z - normal: Start building plugin scripts
+2018-12-11T06:18:33.765Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T06:18:36.491Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T06:24:28.257Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1132,21 +1132,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:26:50.340Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:26:50.340Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:26:50.346Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:26:56.078Z - normal: Start building assets
-2018-12-10T03:26:56.078Z - normal: Start spawn build-worker
-2018-12-10T03:26:57.416Z - normal: Finish spawn build-worker
-2018-12-10T03:26:57.416Z - normal: Start init build-worker
-2018-12-10T03:27:03.504Z - normal: Finish init build-worker
-2018-12-10T03:27:03.505Z - normal: Start build-assets in worker
-2018-12-10T03:27:04.218Z - normal: Finish build-assets in worker
-2018-12-10T03:27:04.224Z - normal: Finish building assets
-2018-12-10T03:27:04.241Z - normal: Start building plugin scripts
-2018-12-10T03:27:04.284Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:27:06.109Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:31:09.055Z - normal: Start building with options : {
+2018-12-11T06:24:28.266Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T06:24:28.267Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T06:24:28.275Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T06:24:33.258Z - normal: Start building assets
+2018-12-11T06:24:33.258Z - normal: Start spawn build-worker
+2018-12-11T06:24:34.438Z - normal: Finish spawn build-worker
+2018-12-11T06:24:34.438Z - normal: Start init build-worker
+2018-12-11T06:24:40.150Z - normal: Finish init build-worker
+2018-12-11T06:24:40.151Z - normal: Start build-assets in worker
+2018-12-11T06:24:40.802Z - normal: Finish build-assets in worker
+2018-12-11T06:24:40.812Z - normal: Finish building assets
+2018-12-11T06:24:40.826Z - normal: Start building plugin scripts
+2018-12-11T06:24:40.870Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T06:24:42.652Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T06:47:38.132Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1241,21 +1241,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:31:09.063Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:31:09.064Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:31:09.070Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:31:14.084Z - normal: Start building assets
-2018-12-10T03:31:14.084Z - normal: Start spawn build-worker
-2018-12-10T03:31:15.493Z - normal: Finish spawn build-worker
-2018-12-10T03:31:15.493Z - normal: Start init build-worker
-2018-12-10T03:31:21.527Z - normal: Finish init build-worker
-2018-12-10T03:31:21.528Z - normal: Start build-assets in worker
-2018-12-10T03:31:22.108Z - normal: Finish build-assets in worker
-2018-12-10T03:31:22.118Z - normal: Finish building assets
-2018-12-10T03:31:22.135Z - normal: Start building plugin scripts
-2018-12-10T03:31:22.194Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:31:24.348Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T03:51:51.343Z - normal: Start building with options : {
+2018-12-11T06:47:38.141Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T06:47:38.143Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T06:47:38.149Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T06:47:42.786Z - normal: Start building assets
+2018-12-11T06:47:42.786Z - normal: Start spawn build-worker
+2018-12-11T06:47:43.982Z - normal: Finish spawn build-worker
+2018-12-11T06:47:43.982Z - normal: Start init build-worker
+2018-12-11T06:47:49.660Z - normal: Finish init build-worker
+2018-12-11T06:47:49.660Z - normal: Start build-assets in worker
+2018-12-11T06:47:50.254Z - normal: Finish build-assets in worker
+2018-12-11T06:47:50.262Z - normal: Finish building assets
+2018-12-11T06:47:50.276Z - normal: Start building plugin scripts
+2018-12-11T06:47:50.324Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T06:47:52.141Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T06:49:54.941Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1350,21 +1350,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T03:51:51.350Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T03:51:51.352Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T03:51:51.358Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T03:51:56.243Z - normal: Start building assets
-2018-12-10T03:51:56.244Z - normal: Start spawn build-worker
-2018-12-10T03:51:57.450Z - normal: Finish spawn build-worker
-2018-12-10T03:51:57.450Z - normal: Start init build-worker
-2018-12-10T03:52:03.080Z - normal: Finish init build-worker
-2018-12-10T03:52:03.081Z - normal: Start build-assets in worker
-2018-12-10T03:52:03.595Z - normal: Finish build-assets in worker
-2018-12-10T03:52:03.602Z - normal: Finish building assets
-2018-12-10T03:52:03.618Z - normal: Start building plugin scripts
-2018-12-10T03:52:03.666Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T03:52:05.566Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T04:05:04.836Z - normal: Start building with options : {
+2018-12-11T06:49:54.949Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T06:49:54.949Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T06:49:54.957Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T06:49:59.766Z - normal: Start building assets
+2018-12-11T06:49:59.767Z - normal: Start spawn build-worker
+2018-12-11T06:50:00.845Z - normal: Finish spawn build-worker
+2018-12-11T06:50:00.845Z - normal: Start init build-worker
+2018-12-11T06:50:06.512Z - normal: Finish init build-worker
+2018-12-11T06:50:06.512Z - normal: Start build-assets in worker
+2018-12-11T06:50:07.007Z - normal: Finish build-assets in worker
+2018-12-11T06:50:07.017Z - normal: Finish building assets
+2018-12-11T06:50:07.031Z - normal: Start building plugin scripts
+2018-12-11T06:50:07.097Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T06:50:08.945Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T06:50:53.329Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1459,21 +1459,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T04:05:04.844Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T04:05:04.845Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T04:05:04.854Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T04:05:09.894Z - normal: Start building assets
-2018-12-10T04:05:09.895Z - normal: Start spawn build-worker
-2018-12-10T04:05:11.057Z - normal: Finish spawn build-worker
-2018-12-10T04:05:11.061Z - normal: Start init build-worker
-2018-12-10T04:05:16.912Z - normal: Finish init build-worker
-2018-12-10T04:05:16.914Z - normal: Start build-assets in worker
-2018-12-10T04:05:17.533Z - normal: Finish build-assets in worker
-2018-12-10T04:05:17.549Z - normal: Finish building assets
-2018-12-10T04:05:17.563Z - normal: Start building plugin scripts
-2018-12-10T04:05:17.611Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T04:05:19.585Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T04:08:27.681Z - normal: Start building with options : {
+2018-12-11T06:50:53.330Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T06:50:53.330Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T06:50:53.331Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T06:50:58.551Z - normal: Start building assets
+2018-12-11T06:50:58.552Z - normal: Start spawn build-worker
+2018-12-11T06:50:59.752Z - normal: Finish spawn build-worker
+2018-12-11T06:50:59.752Z - normal: Start init build-worker
+2018-12-11T06:51:05.450Z - normal: Finish init build-worker
+2018-12-11T06:51:05.450Z - normal: Start build-assets in worker
+2018-12-11T06:51:06.103Z - normal: Finish build-assets in worker
+2018-12-11T06:51:06.113Z - normal: Finish building assets
+2018-12-11T06:51:06.123Z - normal: Start building plugin scripts
+2018-12-11T06:51:06.167Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T06:51:08.103Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:01:27.272Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1568,21 +1568,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T04:08:27.689Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T04:08:27.690Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T04:08:27.696Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T04:08:33.063Z - normal: Start building assets
-2018-12-10T04:08:33.065Z - normal: Start spawn build-worker
-2018-12-10T04:08:34.480Z - normal: Finish spawn build-worker
-2018-12-10T04:08:34.484Z - normal: Start init build-worker
-2018-12-10T04:08:40.330Z - normal: Finish init build-worker
-2018-12-10T04:08:40.331Z - normal: Start build-assets in worker
-2018-12-10T04:08:40.954Z - normal: Finish build-assets in worker
-2018-12-10T04:08:40.961Z - normal: Finish building assets
-2018-12-10T04:08:40.975Z - normal: Start building plugin scripts
-2018-12-10T04:08:41.023Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T04:08:42.908Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T07:23:22.636Z - normal: Start building with options : {
+2018-12-11T07:01:27.280Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:01:27.281Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:01:27.286Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:01:32.096Z - normal: Start building assets
+2018-12-11T07:01:32.096Z - normal: Start spawn build-worker
+2018-12-11T07:01:33.262Z - normal: Finish spawn build-worker
+2018-12-11T07:01:33.263Z - normal: Start init build-worker
+2018-12-11T07:01:38.173Z - normal: Finish init build-worker
+2018-12-11T07:01:38.174Z - normal: Start build-assets in worker
+2018-12-11T07:01:38.580Z - normal: Finish build-assets in worker
+2018-12-11T07:01:38.584Z - normal: Finish building assets
+2018-12-11T07:01:38.596Z - normal: Start building plugin scripts
+2018-12-11T07:01:38.677Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:01:40.198Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:05:55.823Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1677,21 +1677,21 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T07:23:22.648Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T07:23:22.648Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T07:23:22.653Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T07:23:27.092Z - normal: Start building assets
-2018-12-10T07:23:27.092Z - normal: Start spawn build-worker
-2018-12-10T07:23:28.231Z - normal: Finish spawn build-worker
-2018-12-10T07:23:28.231Z - normal: Start init build-worker
-2018-12-10T07:23:34.018Z - normal: Finish init build-worker
-2018-12-10T07:23:34.019Z - normal: Start build-assets in worker
-2018-12-10T07:23:34.622Z - normal: Finish build-assets in worker
-2018-12-10T07:23:34.634Z - normal: Finish building assets
-2018-12-10T07:23:34.649Z - normal: Start building plugin scripts
-2018-12-10T07:23:34.695Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T07:23:36.669Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
-2018-12-10T07:24:52.355Z - normal: Start building with options : {
+2018-12-11T07:05:55.834Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:05:55.834Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:05:55.840Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:06:02.218Z - normal: Start building assets
+2018-12-11T07:06:02.220Z - normal: Start spawn build-worker
+2018-12-11T07:06:03.410Z - normal: Finish spawn build-worker
+2018-12-11T07:06:03.411Z - normal: Start init build-worker
+2018-12-11T07:06:09.301Z - normal: Finish init build-worker
+2018-12-11T07:06:09.302Z - normal: Start build-assets in worker
+2018-12-11T07:06:09.823Z - normal: Finish build-assets in worker
+2018-12-11T07:06:09.830Z - normal: Finish building assets
+2018-12-11T07:06:09.843Z - normal: Start building plugin scripts
+2018-12-11T07:06:09.886Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:06:11.814Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:13:57.871Z - normal: Start building with options : {
   "actualPlatform": "wechatgame-subcontext",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -1786,17 +1786,2415 @@
   "projectName": "rank",
   "debugBuildWorker": false
 }
-2018-12-10T07:24:52.357Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
-2018-12-10T07:24:52.357Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
-2018-12-10T07:24:52.359Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
-2018-12-10T07:24:56.816Z - normal: Start building assets
-2018-12-10T07:24:56.817Z - normal: Start spawn build-worker
-2018-12-10T07:24:58.010Z - normal: Finish spawn build-worker
-2018-12-10T07:24:58.010Z - normal: Start init build-worker
-2018-12-10T07:25:02.884Z - normal: Finish init build-worker
-2018-12-10T07:25:02.885Z - normal: Start build-assets in worker
-2018-12-10T07:25:03.542Z - normal: Finish build-assets in worker
-2018-12-10T07:25:03.562Z - normal: Finish building assets
-2018-12-10T07:25:03.575Z - normal: Start building plugin scripts
-2018-12-10T07:25:03.622Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-12-10T07:25:06.339Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:13:57.880Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:13:57.880Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:13:57.882Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:14:04.818Z - normal: Start building assets
+2018-12-11T07:14:04.819Z - normal: Start spawn build-worker
+2018-12-11T07:14:07.356Z - normal: Finish spawn build-worker
+2018-12-11T07:14:07.356Z - normal: Start init build-worker
+2018-12-11T07:14:15.153Z - normal: Finish init build-worker
+2018-12-11T07:14:15.154Z - normal: Start build-assets in worker
+2018-12-11T07:14:15.973Z - normal: Finish build-assets in worker
+2018-12-11T07:14:15.979Z - normal: Finish building assets
+2018-12-11T07:14:15.990Z - normal: Start building plugin scripts
+2018-12-11T07:14:16.041Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:14:17.952Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:15:04.979Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:15:04.980Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:15:04.980Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:15:04.983Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:15:10.592Z - normal: Start building assets
+2018-12-11T07:15:10.594Z - normal: Start spawn build-worker
+2018-12-11T07:15:11.849Z - normal: Finish spawn build-worker
+2018-12-11T07:15:11.850Z - normal: Start init build-worker
+2018-12-11T07:15:19.666Z - normal: Finish init build-worker
+2018-12-11T07:15:19.667Z - normal: Start build-assets in worker
+2018-12-11T07:15:20.464Z - normal: Finish build-assets in worker
+2018-12-11T07:15:20.469Z - normal: Finish building assets
+2018-12-11T07:15:20.478Z - normal: Start building plugin scripts
+2018-12-11T07:15:20.519Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:15:22.295Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:25:19.025Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:25:19.031Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:25:19.031Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:25:19.033Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:25:28.482Z - normal: Start building assets
+2018-12-11T07:25:28.484Z - normal: Start spawn build-worker
+2018-12-11T07:25:30.037Z - normal: Finish spawn build-worker
+2018-12-11T07:25:30.037Z - normal: Start init build-worker
+2018-12-11T07:25:39.720Z - normal: Finish init build-worker
+2018-12-11T07:25:39.721Z - normal: Start build-assets in worker
+2018-12-11T07:25:40.370Z - normal: Finish build-assets in worker
+2018-12-11T07:25:40.383Z - normal: Finish building assets
+2018-12-11T07:25:40.400Z - normal: Start building plugin scripts
+2018-12-11T07:25:40.471Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:25:42.944Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:30:27.920Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:30:27.928Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:30:27.929Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:30:27.931Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:30:36.715Z - normal: Start building assets
+2018-12-11T07:30:36.716Z - normal: Start spawn build-worker
+2018-12-11T07:30:38.398Z - normal: Finish spawn build-worker
+2018-12-11T07:30:38.399Z - normal: Start init build-worker
+2018-12-11T07:30:47.653Z - normal: Finish init build-worker
+2018-12-11T07:30:47.654Z - normal: Start build-assets in worker
+2018-12-11T07:30:48.339Z - normal: Finish build-assets in worker
+2018-12-11T07:30:48.343Z - normal: Finish building assets
+2018-12-11T07:30:48.360Z - normal: Start building plugin scripts
+2018-12-11T07:30:48.406Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:30:50.697Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:36:15.188Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:36:15.197Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:36:15.197Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:36:15.201Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:36:24.542Z - normal: Start building assets
+2018-12-11T07:36:24.542Z - normal: Start spawn build-worker
+2018-12-11T07:36:26.961Z - normal: Finish spawn build-worker
+2018-12-11T07:36:26.961Z - normal: Start init build-worker
+2018-12-11T07:36:38.353Z - normal: Finish init build-worker
+2018-12-11T07:36:38.355Z - normal: Start build-assets in worker
+2018-12-11T07:36:39.353Z - normal: Finish build-assets in worker
+2018-12-11T07:36:39.364Z - normal: Finish building assets
+2018-12-11T07:36:39.379Z - normal: Start building plugin scripts
+2018-12-11T07:36:39.442Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:36:41.977Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:49:11.507Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:49:11.515Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:49:11.515Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:49:11.521Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:49:16.299Z - normal: Start building assets
+2018-12-11T07:49:16.299Z - normal: Start spawn build-worker
+2018-12-11T07:49:17.486Z - normal: Finish spawn build-worker
+2018-12-11T07:49:17.486Z - normal: Start init build-worker
+2018-12-11T07:49:23.337Z - normal: Finish init build-worker
+2018-12-11T07:49:23.337Z - normal: Start build-assets in worker
+2018-12-11T07:49:23.908Z - normal: Finish build-assets in worker
+2018-12-11T07:49:23.916Z - normal: Finish building assets
+2018-12-11T07:49:23.933Z - normal: Start building plugin scripts
+2018-12-11T07:49:23.980Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:49:25.797Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:50:17.419Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:50:17.424Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:50:17.424Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:50:17.428Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:50:22.692Z - normal: Start building assets
+2018-12-11T07:50:22.693Z - normal: Start spawn build-worker
+2018-12-11T07:50:23.889Z - normal: Finish spawn build-worker
+2018-12-11T07:50:23.889Z - normal: Start init build-worker
+2018-12-11T07:50:29.778Z - normal: Finish init build-worker
+2018-12-11T07:50:29.779Z - normal: Start build-assets in worker
+2018-12-11T07:50:30.379Z - normal: Finish build-assets in worker
+2018-12-11T07:50:30.402Z - normal: Finish building assets
+2018-12-11T07:50:30.412Z - normal: Start building plugin scripts
+2018-12-11T07:50:30.453Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:50:32.152Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:51:15.188Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:51:15.189Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:51:15.189Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:51:15.191Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:51:21.547Z - normal: Start building assets
+2018-12-11T07:51:21.548Z - normal: Start spawn build-worker
+2018-12-11T07:51:22.764Z - normal: Finish spawn build-worker
+2018-12-11T07:51:22.764Z - normal: Start init build-worker
+2018-12-11T07:51:28.719Z - normal: Finish init build-worker
+2018-12-11T07:51:28.719Z - normal: Start build-assets in worker
+2018-12-11T07:51:29.349Z - normal: Finish build-assets in worker
+2018-12-11T07:51:29.354Z - normal: Finish building assets
+2018-12-11T07:51:29.363Z - normal: Start building plugin scripts
+2018-12-11T07:51:29.407Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:51:31.275Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:52:12.615Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:52:12.616Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:52:12.617Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:52:12.619Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:52:18.660Z - normal: Start building assets
+2018-12-11T07:52:18.661Z - normal: Start spawn build-worker
+2018-12-11T07:52:19.880Z - normal: Finish spawn build-worker
+2018-12-11T07:52:19.881Z - normal: Start init build-worker
+2018-12-11T07:52:25.797Z - normal: Finish init build-worker
+2018-12-11T07:52:25.798Z - normal: Start build-assets in worker
+2018-12-11T07:52:26.353Z - normal: Finish build-assets in worker
+2018-12-11T07:52:26.358Z - normal: Finish building assets
+2018-12-11T07:52:26.368Z - normal: Start building plugin scripts
+2018-12-11T07:52:26.423Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:52:28.250Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:53:37.099Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:53:37.104Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:53:37.104Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:53:37.108Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:53:43.246Z - normal: Start building assets
+2018-12-11T07:53:43.247Z - normal: Start spawn build-worker
+2018-12-11T07:53:44.705Z - normal: Finish spawn build-worker
+2018-12-11T07:53:44.708Z - normal: Start init build-worker
+2018-12-11T07:53:50.923Z - normal: Finish init build-worker
+2018-12-11T07:53:50.924Z - normal: Start build-assets in worker
+2018-12-11T07:53:51.560Z - normal: Finish build-assets in worker
+2018-12-11T07:53:51.566Z - normal: Finish building assets
+2018-12-11T07:53:51.579Z - normal: Start building plugin scripts
+2018-12-11T07:53:51.622Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:53:53.319Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T07:55:29.957Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T07:55:29.967Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T07:55:29.967Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T07:55:29.975Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T07:55:36.463Z - normal: Start building assets
+2018-12-11T07:55:36.464Z - normal: Start spawn build-worker
+2018-12-11T07:55:37.638Z - normal: Finish spawn build-worker
+2018-12-11T07:55:37.638Z - normal: Start init build-worker
+2018-12-11T07:55:43.534Z - normal: Finish init build-worker
+2018-12-11T07:55:43.534Z - normal: Start build-assets in worker
+2018-12-11T07:55:44.105Z - normal: Finish build-assets in worker
+2018-12-11T07:55:44.111Z - normal: Finish building assets
+2018-12-11T07:55:44.124Z - normal: Start building plugin scripts
+2018-12-11T07:55:44.169Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T07:55:46.100Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:00:52.318Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:00:52.326Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:00:52.327Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:00:52.333Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:00:58.404Z - normal: Start building assets
+2018-12-11T08:00:58.406Z - normal: Start spawn build-worker
+2018-12-11T08:00:59.932Z - normal: Finish spawn build-worker
+2018-12-11T08:00:59.932Z - normal: Start init build-worker
+2018-12-11T08:01:06.850Z - normal: Finish init build-worker
+2018-12-11T08:01:06.851Z - normal: Start build-assets in worker
+2018-12-11T08:01:07.390Z - normal: Finish build-assets in worker
+2018-12-11T08:01:07.399Z - normal: Finish building assets
+2018-12-11T08:01:07.415Z - normal: Start building plugin scripts
+2018-12-11T08:01:07.462Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:01:09.774Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:16:13.879Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:16:13.887Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:16:13.887Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:16:13.892Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:16:18.269Z - normal: Start building assets
+2018-12-11T08:16:18.270Z - normal: Start spawn build-worker
+2018-12-11T08:16:19.186Z - normal: Finish spawn build-worker
+2018-12-11T08:16:19.186Z - normal: Start init build-worker
+2018-12-11T08:16:24.573Z - normal: Finish init build-worker
+2018-12-11T08:16:24.574Z - normal: Start build-assets in worker
+2018-12-11T08:16:25.006Z - normal: Finish build-assets in worker
+2018-12-11T08:16:25.010Z - normal: Finish building assets
+2018-12-11T08:16:25.026Z - normal: Start building plugin scripts
+2018-12-11T08:16:25.076Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:16:26.814Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:25:41.472Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:25:41.483Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:25:41.483Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:25:41.489Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:25:46.450Z - normal: Start building assets
+2018-12-11T08:25:46.451Z - normal: Start spawn build-worker
+2018-12-11T08:25:47.662Z - normal: Finish spawn build-worker
+2018-12-11T08:25:47.662Z - normal: Start init build-worker
+2018-12-11T08:25:54.005Z - normal: Finish init build-worker
+2018-12-11T08:25:54.006Z - normal: Start build-assets in worker
+2018-12-11T08:25:54.581Z - normal: Finish build-assets in worker
+2018-12-11T08:25:54.594Z - normal: Finish building assets
+2018-12-11T08:25:54.611Z - normal: Start building plugin scripts
+2018-12-11T08:25:54.661Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:25:56.825Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:37:52.724Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:37:52.733Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:37:52.734Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:37:52.740Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:37:58.647Z - normal: Start building assets
+2018-12-11T08:37:58.648Z - normal: Start spawn build-worker
+2018-12-11T08:37:59.799Z - normal: Finish spawn build-worker
+2018-12-11T08:37:59.799Z - normal: Start init build-worker
+2018-12-11T08:38:05.575Z - normal: Finish init build-worker
+2018-12-11T08:38:05.575Z - normal: Start build-assets in worker
+2018-12-11T08:38:06.258Z - normal: Finish build-assets in worker
+2018-12-11T08:38:06.277Z - normal: Finish building assets
+2018-12-11T08:38:06.294Z - normal: Start building plugin scripts
+2018-12-11T08:38:06.344Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:38:08.157Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:42:03.309Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:42:03.318Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:42:03.318Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:42:03.324Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:42:07.806Z - normal: Start building assets
+2018-12-11T08:42:07.806Z - normal: Start spawn build-worker
+2018-12-11T08:42:08.887Z - normal: Finish spawn build-worker
+2018-12-11T08:42:08.887Z - normal: Start init build-worker
+2018-12-11T08:42:13.922Z - normal: Finish init build-worker
+2018-12-11T08:42:13.922Z - normal: Start build-assets in worker
+2018-12-11T08:42:14.400Z - normal: Finish build-assets in worker
+2018-12-11T08:42:14.405Z - normal: Finish building assets
+2018-12-11T08:42:14.420Z - normal: Start building plugin scripts
+2018-12-11T08:42:14.470Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:42:16.412Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:42:49.074Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:42:49.075Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:42:49.075Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:42:49.076Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:42:54.228Z - normal: Start building assets
+2018-12-11T08:42:54.229Z - normal: Start spawn build-worker
+2018-12-11T08:42:55.348Z - normal: Finish spawn build-worker
+2018-12-11T08:42:55.348Z - normal: Start init build-worker
+2018-12-11T08:43:00.714Z - normal: Finish init build-worker
+2018-12-11T08:43:00.716Z - normal: Start build-assets in worker
+2018-12-11T08:43:01.264Z - normal: Finish build-assets in worker
+2018-12-11T08:43:01.271Z - normal: Finish building assets
+2018-12-11T08:43:01.282Z - normal: Start building plugin scripts
+2018-12-11T08:43:01.324Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:43:03.095Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:47:21.543Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:47:21.547Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:47:21.547Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:47:21.551Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:47:25.633Z - normal: Start building assets
+2018-12-11T08:47:25.633Z - normal: Start spawn build-worker
+2018-12-11T08:47:26.534Z - normal: Finish spawn build-worker
+2018-12-11T08:47:26.534Z - normal: Start init build-worker
+2018-12-11T08:47:32.091Z - normal: Finish init build-worker
+2018-12-11T08:47:32.092Z - normal: Start build-assets in worker
+2018-12-11T08:47:32.621Z - normal: Finish build-assets in worker
+2018-12-11T08:47:32.634Z - normal: Finish building assets
+2018-12-11T08:47:32.648Z - normal: Start building plugin scripts
+2018-12-11T08:47:32.689Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:47:35.061Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T08:48:53.681Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T08:48:53.682Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T08:48:53.682Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T08:48:53.684Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T08:48:58.033Z - normal: Start building assets
+2018-12-11T08:48:58.033Z - normal: Start spawn build-worker
+2018-12-11T08:48:59.151Z - normal: Finish spawn build-worker
+2018-12-11T08:48:59.151Z - normal: Start init build-worker
+2018-12-11T08:49:06.105Z - normal: Finish init build-worker
+2018-12-11T08:49:06.105Z - normal: Start build-assets in worker
+2018-12-11T08:49:06.728Z - normal: Finish build-assets in worker
+2018-12-11T08:49:06.735Z - normal: Finish building assets
+2018-12-11T08:49:06.745Z - normal: Start building plugin scripts
+2018-12-11T08:49:06.781Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T08:49:08.303Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T09:00:27.153Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T09:00:27.162Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T09:00:27.163Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T09:00:27.170Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T09:00:34.513Z - normal: Start building assets
+2018-12-11T09:00:34.514Z - normal: Start spawn build-worker
+2018-12-11T09:00:35.723Z - normal: Finish spawn build-worker
+2018-12-11T09:00:35.723Z - normal: Start init build-worker
+2018-12-11T09:00:41.876Z - normal: Finish init build-worker
+2018-12-11T09:00:41.877Z - normal: Start build-assets in worker
+2018-12-11T09:00:42.461Z - normal: Finish build-assets in worker
+2018-12-11T09:00:42.473Z - normal: Finish building assets
+2018-12-11T09:00:42.487Z - normal: Start building plugin scripts
+2018-12-11T09:00:42.544Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T09:00:44.364Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T10:23:14.340Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T10:23:14.346Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T10:23:14.346Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T10:23:14.351Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T10:23:19.680Z - normal: Start building assets
+2018-12-11T10:23:19.681Z - normal: Start spawn build-worker
+2018-12-11T10:23:20.918Z - normal: Finish spawn build-worker
+2018-12-11T10:23:20.919Z - normal: Start init build-worker
+2018-12-11T10:23:27.853Z - normal: Finish init build-worker
+2018-12-11T10:23:27.854Z - normal: Start build-assets in worker
+2018-12-11T10:23:28.439Z - normal: Finish build-assets in worker
+2018-12-11T10:23:28.445Z - normal: Finish building assets
+2018-12-11T10:23:28.459Z - normal: Start building plugin scripts
+2018-12-11T10:23:28.514Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T10:23:30.687Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T10:28:26.016Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T10:28:26.023Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T10:28:26.024Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T10:28:26.030Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T10:28:33.166Z - normal: Start building assets
+2018-12-11T10:28:33.167Z - normal: Start spawn build-worker
+2018-12-11T10:28:34.756Z - normal: Finish spawn build-worker
+2018-12-11T10:28:34.756Z - normal: Start init build-worker
+2018-12-11T10:28:42.398Z - normal: Finish init build-worker
+2018-12-11T10:28:42.399Z - normal: Start build-assets in worker
+2018-12-11T10:28:42.926Z - normal: Finish build-assets in worker
+2018-12-11T10:28:42.932Z - normal: Finish building assets
+2018-12-11T10:28:42.947Z - normal: Start building plugin scripts
+2018-12-11T10:28:42.994Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T10:28:45.168Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully
+2018-12-11T10:29:41.424Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame-subcontext",
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame",
+  "debug": false,
+  "dest": "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [
+    "4492ddf8-0156-437d-a848-cf5fa0c5b7fb"
+  ],
+  "excludedModules": [
+    "WebGL Renderer",
+    "Renderer Texture",
+    "Dynamic Atlas",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "DragonBones",
+    "RichText",
+    "MotionStreak",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditBox",
+    "VideoPlayer",
+    "WebView",
+    "AudioSource",
+    "Animation",
+    "Collider",
+    "Physics",
+    "StudioComponent",
+    "Intersection"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": false,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": true,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame-subcontext",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "95bfda3a-c769-43b8-908c-440165d5e847"
+  ],
+  "sourceMaps": false,
+  "startScene": "95bfda3a-c769-43b8-908c-440165d5e847",
+  "template": "link",
+  "title": "rank",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "084af0c4-65c7-43",
+  "zipCompressJs": true,
+  "project": "/Users/linzhang/youyou/rank_chenguyuxiaoxiao",
+  "projectName": "rank",
+  "debugBuildWorker": false
+}
+2018-12-11T10:29:41.425Z - normal: Building /Users/linzhang/youyou/rank_chenguyuxiaoxiao
+2018-12-11T10:29:41.426Z - normal: Destination /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank
+2018-12-11T10:29:41.427Z - normal: Delete /Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/rank/**/*
+2018-12-11T10:29:45.622Z - normal: Start building assets
+2018-12-11T10:29:45.623Z - normal: Start spawn build-worker
+2018-12-11T10:29:46.525Z - normal: Finish spawn build-worker
+2018-12-11T10:29:46.525Z - normal: Start init build-worker
+2018-12-11T10:29:50.789Z - normal: Finish init build-worker
+2018-12-11T10:29:50.790Z - normal: Start build-assets in worker
+2018-12-11T10:29:51.206Z - normal: Finish build-assets in worker
+2018-12-11T10:29:51.209Z - normal: Finish building assets
+2018-12-11T10:29:51.219Z - normal: Start building plugin scripts
+2018-12-11T10:29:51.269Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-12-11T10:29:52.800Z - normal: Built to "/Users/linzhang/youyou/youzixiaochengyu2/build/wechatgame/wechatgame-subcontext" successfully

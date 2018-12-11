@@ -85,8 +85,8 @@
     "relativePath": "script/src"
   },
   "95bfda3a-c769-43b8-908c-440165d5e847": {
-    "asset": 1544102591649,
-    "meta": 1544102591681,
+    "asset": 1544512553452,
+    "meta": 1544512553463,
     "relativePath": "scene/rank2A.fire"
   },
   "c7d7cbcf-1fe6-42d9-86da-c73cea1744e4": {
@@ -133,16 +133,6 @@
     "asset": 1543968626000,
     "meta": 1544010332770,
     "relativePath": "resources/tiaozhujiemian.png"
-  },
-  "b2687ac4-099e-403c-a192-ff477686f4f5": {
-    "asset": 1541500988000,
-    "meta": 1544407549658,
-    "relativePath": "particle/atom.plist"
-  },
-  "b8223619-7e38-47c4-841f-9160c232495a": {
-    "asset": 1541500988000,
-    "meta": 1544407549658,
-    "relativePath": "obsolete/atom.plist"
   },
   "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
     "asset": 1541500988000,
@@ -364,11 +354,6 @@
     "meta": 1544407749600,
     "relativePath": "script/src/Item2A.js"
   },
-  "40f4c455-bc33-4e45-b91b-43e0485885a9": {
-    "asset": 1544407687895,
-    "meta": 1544407749833,
-    "relativePath": "script/src/Rank2A.js"
-  },
   "d1d6212b-d71f-4725-8862-703f94588407": {
     "asset": 1544407687599,
     "meta": 1544407749935,
@@ -399,11 +384,6 @@
     "meta": 1544407750427,
     "relativePath": "script/src/ScrollView.js"
   },
-  "dc8b37c6-046b-4660-9e39-dc5950bf67c9": {
-    "asset": 1544407687660,
-    "meta": 1544407750467,
-    "relativePath": "script/src/ScrollView2A.js"
-  },
   "be213e21-deeb-4507-b63d-7f7264afe2d7": {
     "asset": 1544407687293,
     "meta": 1544407750479,
@@ -413,5 +393,25 @@
     "asset": 1544407687490,
     "meta": 1544407750481,
     "relativePath": "script/src/Tools.js"
+  },
+  "b2687ac4-099e-403c-a192-ff477686f4f5": {
+    "asset": 1541500988000,
+    "meta": 1544507499025,
+    "relativePath": "particle/atom.plist"
+  },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1541500988000,
+    "meta": 1544507499026,
+    "relativePath": "obsolete/atom.plist"
+  },
+  "dc8b37c6-046b-4660-9e39-dc5950bf67c9": {
+    "asset": 1544513104144,
+    "meta": 1544513117423,
+    "relativePath": "script/src/ScrollView2A.js"
+  },
+  "40f4c455-bc33-4e45-b91b-43e0485885a9": {
+    "asset": 1544513772588,
+    "meta": 1544513774809,
+    "relativePath": "script/src/Rank2A.js"
   }
 }

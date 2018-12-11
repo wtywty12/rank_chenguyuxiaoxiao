@@ -67,6 +67,8 @@ export class ScrollView2A extends cc.Component {
             if(data[i] == undefined)
                 break;
             let rankItem: Item2A = item.getComponent('Item2A')
+            console.log("更新排行榜item")
+            console.log(data[i]);
             rankItem.updateItem(data[i], i);
             //记录一下itemid
             this.itemMap.set(item, i);

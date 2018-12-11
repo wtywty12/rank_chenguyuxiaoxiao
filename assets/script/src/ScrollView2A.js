@@ -63,6 +63,8 @@ var ScrollView2A = (function (_super) {
             if (data[i] == undefined)
                 break;
             var rankItem = item.getComponent('Item2A');
+            console.log("更新排行榜item");
+            console.log(data[i]);
             rankItem.updateItem(data[i], i);
             this.itemMap.set(item, i);
             this.items.push(item);

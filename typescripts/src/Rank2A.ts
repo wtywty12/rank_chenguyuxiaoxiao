@@ -23,6 +23,10 @@ export class Rank2A extends cc.Component {
     @property(cc.Label)
     private my_paiming: cc.Label = null;
 
+    /** score */
+    @property(cc.Label)
+    private my_score: cc.Label = null;
+
     private sv: ScrollView2A = null;
     private r2b: Rank2B = null;
 
@@ -49,7 +53,9 @@ export class Rank2A extends cc.Component {
                     this.submitTopScore(eventData.score, eventData.chenghao, eventData.playerId);
                     break;
                 case "3":
-                    this.sv.clearAllData();
+                    if (this.sv && typeof this.sv.clearAllData == "function") {
+                        this.sv.clearAllData();
+                    }
                     break;
                 case "4":
                     this.initItem2B(eventData);
@@ -58,7 +64,9 @@ export class Rank2A extends cc.Component {
                     this.updateItem2B(eventData);
                     break;
                 case "6":
-                    this.sv.clearAllData();
+                    if (this.sv && typeof this.sv.clearAllData == "function") {
+                        this.sv.clearAllData();
+                    }
                     this.updateGroup2B(eventData.playerId, eventData.shareTicket);
                     break;
                 default:
@@ -74,6 +82,7 @@ export class Rank2A extends cc.Component {
     private initItem2B(playerId: string) {
         this.rank2A.active = false;
         this.my_paiming.node.active = false;
+        this.my_score.node.active = false;
         this.rank2B.active = true;
         var rank2b: Rank2B = this.rank2B.getComponent("Rank2B");
         this.getBorderFriend(function(datas: any){
@@ -115,6 +124,7 @@ export class Rank2A extends cc.Component {
     private createFriendRankList(playerId: string) {
         this.rank2A.active = true;
         this.my_paiming.node.active = true;
+        this.my_score.node.active = true;
         this.rank2B.active = false;
         wx.getFriendCloudStorage({
             keyList: ["topScore_2A"],
@@ -134,6 +144,7 @@ export class Rank2A extends cc.Component {
                     console.log("vp = " + value.get("playerId"))
                     if (+playerId == value.get("playerId")) {
                         this.my_paiming.string = index.toString();
+                        this.my_score.string = value.get("score");
                         return;
                     }
                 })
@@ -219,6 +230,7 @@ export class Rank2A extends cc.Component {
     private updateGroup2B(playerId: string, shareTicket: string) {
         this.rank2A.active = true;
         this.my_paiming.node.active = true;
+        this.my_score.node.active = true;
         this.rank2B.active = false;
         wx.getGroupCloudStorage({
             shareTicket: shareTicket,
@@ -239,6 +251,7 @@ export class Rank2A extends cc.Component {
                     console.log("vp = " + value.get("playerId"))
                     if (+playerId == value.get("playerId")) {
                         this.my_paiming.string = index.toString();
+                        this.my_score.string = value.get("score");
                         return;
                     }
                 })
